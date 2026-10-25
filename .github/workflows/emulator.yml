@@ -1,0 +1,113 @@
+name: Emulator run
+
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: 'App names from ci/apps.csv, comma separated, or "all"'
+        default: 'all'
+      tool:
+        description: 'monkey (ape needs ci/ape.jar)'
+        type: choice
+        options: [monkey, ape]
+        default: monkey
+      minutes:
+        description: 'Minutes per app (the baseline used 60)'
+        default: '60'
+      seed:
+        description: 'Random seed (the baseline used 20261016)'
+        default: '20261016'
+  push:
+    branches: [main]
+    paths: [ci/run.conf]
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      apps: ${{ steps.plan.outputs.apps }}
+      count: ${{ steps.plan.outputs.count }}
+      minutes: ${{ steps.plan.outputs.minutes }}
+      seed: ${{ steps.plan.outputs.seed }}
+      tool: ${{ steps.plan.outputs.tool }}
+    steps:
+      - uses: actions/checkout@v6
+      - id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          IN_APPS: ${{ inputs.apps }}
+          IN_MINUTES: ${{ inputs.minutes }}
+          IN_SEED: ${{ inputs.seed }}
+          IN_TOOL: ${{ inputs.tool }}
+        run: python3 -I ci/plan.py
+
+  run:
+    name: ${{ matrix.app }}
+    needs: plan
+    if: ${{ needs.plan.outputs.count != '0' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: JaCoCo command line tool
+        run: bash ci/get_jacoco.sh
+
+      - name: Emulator (Android 8.1, API 27) and test run
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 27
+          target: default
+          arch: x86_64
+          profile: pixel_2
+          cores: 3
+          ram-size: 3072M
+          heap-size: 512M
+          disk-size: 4096M
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -camera-front none
+          disable-animations: true
+          script: bash ci/run_app.sh "${{ matrix.app }}" "${{ needs.plan.outputs.minutes }}" "${{ needs.plan.outputs.seed }}" "${{ needs.plan.outputs.tool }}" "out/${{ matrix.app }}"
+
+      - name: Upload results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: results-${{ matrix.app }}
+          path: out/${{ matrix.app }}
+          retention-days: 7
+          if-no-files-found: warn
+
+  collect:
+    needs: [plan, run]
+    if: ${{ !cancelled() && needs.plan.result == 'success' && needs.plan.outputs.count != '0' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v8
+        continue-on-error: true
+        with:
+          pattern: results-*
+          path: collected
+      - name: Summarise
+        run: python3 -I ci/collect.py collected "$RUNNER_TEMP/out" "${{ needs.plan.outputs.apps }}"
+      - name: Publish to the results branch
+        run: bash ci/publish_results.sh "$RUNNER_TEMP/out"
