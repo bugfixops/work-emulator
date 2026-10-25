@@ -12,7 +12,7 @@ import sys
 
 MAX_FILE = 40 * 1024 * 1024
 COLS = ['app', 'status', 'tool', 'minutes', 'segments_valid', 'segments_total', 'methods_hit', 'methods_total', 'events_injected',
-        'crashes', 'anrs', 'tool_exit', 'app_alive_at_end']
+        'events_estimated', 'crashes', 'anrs', 'tool_exit', 'app_alive_at_end']
 
 
 def main():
@@ -55,7 +55,7 @@ def main():
     for r in rows:
         lines.append('| %s | %s | %s | %s | %s/%s | %s/%s | %s | %s | %s |' % (
             r['app'], r.get('status', ''), r.get('tool', ''), r.get('minutes', ''), r.get('segments_valid', ''), r.get('segments_total', ''),
-            r.get('methods_hit', ''), r.get('methods_total', ''), r.get('events_injected', ''), r.get('crashes', ''), r.get('anrs', '')))
+            r.get('methods_hit', ''), r.get('methods_total', ''), r.get('events_injected') or r.get('events_estimated', ''), r.get('crashes', ''), r.get('anrs', '')))
     text = '\n'.join(lines) + '\n'
     with open(os.path.join(dst, 'SUMMARY.md'), 'w', encoding='utf-8') as f:
         f.write(text)

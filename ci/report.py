@@ -42,6 +42,8 @@ def main():
         text = open(log, encoding='utf-8', errors='replace').read()
         events = re.findall(r'Events injected: (\d+)', text)
         meta['events_injected'] = int(events[-1]) if events else None
+        # Monkey prints no summary when `timeout` stops it; every event is followed by one throttle sleep line
+        meta['events_estimated'] = len(re.findall(r'^Sleeping for \d+ milliseconds', text, re.M))
         meta['crashes'] = text.count('// CRASH:')
         meta['anrs'] = text.count('// NOT RESPONDING:')
     with open(os.path.join(out, 'meta.json'), 'w', encoding='utf-8') as f:

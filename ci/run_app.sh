@@ -174,11 +174,17 @@ STARTED=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 T0=$(date -u +%s)
 $ADB shell "exec $CMD" > "$OUT/tool.log" 2>&1 &
 TOOL_PID=$!
+LAST_BEAT=$T0
 while kill -0 "$TOOL_PID" 2>/dev/null; do
-  if [ $(( $(date -u +%s) - T0 )) -ge $((RUN_SECONDS + 180)) ]; then
+  NOW=$(date -u +%s)
+  if [ $((NOW - T0)) -ge $((RUN_SECONDS + 180)) ]; then
     log "watchdog: the tool is still running after the time limit, detaching from it"
     kill "$TOOL_PID" 2>/dev/null
     break
+  fi
+  if [ $((NOW - LAST_BEAT)) -ge 300 ]; then
+    LAST_BEAT=$NOW
+    log "running for $((NOW - T0)) s, $(wc -l < "$OUT/segments.csv" | tr -d ' ') coverage dumps so far"
   fi
   sleep 5
 done
