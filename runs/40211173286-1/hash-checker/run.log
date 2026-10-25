@@ -1,0 +1,5 @@
+[16:22:02] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[16:22:05] install apks/hash-checker.apk: Success
+[16:22:06] tool: timeout -s INT 180 monkey -p com.smlnskgmail.jaman.hashchecker.thirdparty -s 20261016 --throttle 500 --ignore-crashes --ignore-timeouts --ignore-security-exceptions -v -v 100000000
+[16:25:12] tool finished with exit code 129 after 185 s
+[16:25:13] result: hash-checker status=ok "crashes":0,"events_injected":null,"methods_hit":147,"methods_total":525,"segments_total":8,"segments_valid":8,

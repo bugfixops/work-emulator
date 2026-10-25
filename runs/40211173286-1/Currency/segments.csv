@@ -1,0 +1,7 @@
+0,2026-10-25T16:22:05Z,207,true,Broadcasting: Intent { act=edu.gatech.m3.emma.COLLECT_COVERAGE flg=0x400000 cmp=org.billthefarmer.currency/.JacocoInstrument.SMSInstrumentedReceiver } Broadcast completed: result=0 
+1,2026-10-25T16:22:35Z,668,true,Broadcasting: Intent { act=edu.gatech.m3.emma.COLLECT_COVERAGE flg=0x400000 cmp=org.billthefarmer.currency/.JacocoInstrument.SMSInstrumentedReceiver } Broadcast completed: result=0 
+2,2026-10-25T16:23:06Z,434,true,Broadcasting: Intent { act=edu.gatech.m3.emma.COLLECT_COVERAGE flg=0x400000 cmp=org.billthefarmer.currency/.JacocoInstrument.SMSInstrumentedReceiver } Broadcast completed: result=0 
+3,2026-10-25T16:23:36Z,482,true,Broadcasting: Intent { act=edu.gatech.m3.emma.COLLECT_COVERAGE flg=0x400000 cmp=org.billthefarmer.currency/.JacocoInstrument.SMSInstrumentedReceiver } Broadcast completed: result=0 
+4,2026-10-25T16:24:06Z,387,true,Broadcasting: Intent { act=edu.gatech.m3.emma.COLLECT_COVERAGE flg=0x400000 cmp=org.billthefarmer.currency/.JacocoInstrument.SMSInstrumentedReceiver } Broadcast completed: result=0 
+5,2026-10-25T16:24:36Z,511,true,Broadcasting: Intent { act=edu.gatech.m3.emma.COLLECT_COVERAGE flg=0x400000 cmp=org.billthefarmer.currency/.JacocoInstrument.SMSInstrumentedReceiver } Broadcast completed: result=0 
+6,2026-10-25T16:25:06Z,387,true,Broadcasting: Intent { act=edu.gatech.m3.emma.COLLECT_COVERAGE flg=0x400000 cmp=org.billthefarmer.currency/.JacocoInstrument.SMSInstrumentedReceiver } Broadcast completed: result=0 
