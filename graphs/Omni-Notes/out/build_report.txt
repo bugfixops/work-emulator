@@ -1,0 +1,98 @@
+methods 1456, pages 68, edges 3803
+verdicts: REACHABLE 1202, UNREACHABLE 254
+unreachable by kind: branch_never_taken 5, closed_by_configuration 21, framework_never_calls 34, no_trigger_in_app 194
+edge kinds: ASYNC 58, CALL 2327, ENTERS 356, ENTRY 17, FRAMEWORK 186, GUI 619, INTENT 18, LIFECYCLE 62, REGISTER 100, RESULT 19, SYSTEM 41
+edge classes: explicit 2305, non_standard 117, page 356, standard 1025; class set by hand: 492 of 3803
+auto edges (from bytecode): 1437 of 3803
+evidence: FW-SRC 202, INFERRED 192, SRC 3409
+edges with a claim that cites no source line (FW-MEMORY, INFERRED, DYN, UNVERIFIED): 356 of 3803
+needs_state edges: 314; env edges: 258; methods with ENV: 249, with STATE: 380
+reachable methods whose best route has a non-standard edge: 259; with no explicit/standard-only route at all: 202
+labels confirmed by: INFERRED 1145, SOURCE 311
+path status: SOURCE_OK 31, UNCHECKED 1170, WRONG 1
+verification label: checked 288, errors found 7 (rate 0.024), unclear 0
+verification edge: checked 49, errors found 34 (rate 0.694), unclear 0
+verification path: checked 33, errors found 30 (rate 0.909), unclear 0
+sanity check (tool coverage; never used to set a label): 848 methods ran in a tool run; 0 UNREACHABLE but ran (contradictions); 79 ENV-gated on the best route but ran
+  ENV-GATED BUT RAN: DetailFragment.lambda$getLocation$7
+  ENV-GATED BUT RAN: DetailFragment.lambda$startPlaying$21
+  ENV-GATED BUT RAN: DetailFragment.lambda$startRecording$22
+  ENV-GATED BUT RAN: DetailFragment.onLocationRetrieved
+  ENV-GATED BUT RAN: DetailFragment.startGetContentAction
+  ENV-GATED BUT RAN: DetailFragment.stopRecording
+  ENV-GATED BUT RAN: DetailFragment$OnGeoUtilResultListenerImpl.checkWeakReferences
+  ENV-GATED BUT RAN: DetailFragment$OnGeoUtilResultListenerImpl.lambda$onLocationRetrieved$0
+  ENV-GATED BUT RAN: DetailFragment$OnGeoUtilResultListenerImpl.onLocationRetrieved
+  ENV-GATED BUT RAN: DetailFragment$OnGeoUtilResultListenerImpl$1.<init>
+  ENV-GATED BUT RAN: DetailFragment$OnGeoUtilResultListenerImpl$1.afterTextChanged
+  ENV-GATED BUT RAN: DetailFragment$OnGeoUtilResultListenerImpl$1.beforeTextChanged
+  ENV-GATED BUT RAN: DetailFragment$OnGeoUtilResultListenerImpl$1.onTextChanged
+  ENV-GATED BUT RAN: SettingsActivity.showMessage(int,Style)
+  ENV-GATED BUT RAN: SettingsActivity.showMessage(String,Style)
+  ENV-GATED BUT RAN: SettingsFragment.export
+  ENV-GATED BUT RAN: SettingsFragment.importNotes
+  ENV-GATED BUT RAN: SettingsFragment.lambda$export$32
+  ENV-GATED BUT RAN: SettingsFragment.lambda$importNotes$26
+  ENV-GATED BUT RAN: SettingsFragment.lambda$importNotes$31
+  ENV-GATED BUT RAN: SettingsFragment.lambda$null$0
+  ENV-GATED BUT RAN: SettingsFragment.lambda$null$22
+  ENV-GATED BUT RAN: SettingsFragment.onActivityResult
+  ENV-GATED BUT RAN: SettingsFragment$1.<init>
+  ENV-GATED BUT RAN: DataBackupIntentService.<init>
+  ENV-GATED BUT RAN: DataBackupIntentService.exportData
+  ENV-GATED BUT RAN: DataBackupIntentService.onHandleIntent
+  ENV-GATED BUT RAN: DbHelper.getInstance(boolean)
+  ENV-GATED BUT RAN: BackupHelper.exportAttachments(NotificationsHelper,File,List,List)
+  ENV-GATED BUT RAN: BackupHelper.exportAttachments(File,NotificationsHelper)
+  ENV-GATED BUT RAN: BackupHelper.exportNote
+  ENV-GATED BUT RAN: BackupHelper.exportNotes
+  ENV-GATED BUT RAN: BackupHelper.exportSettings
+  ENV-GATED BUT RAN: BackupHelper.getBackupNoteFile
+  ENV-GATED BUT RAN: BackupHelper.startBackupService
+  ENV-GATED BUT RAN: GeocodeProviderBaseFactory.getProvider
+  ENV-GATED BUT RAN: PlacesAutoCompleteAdapter.<init>
+  ENV-GATED BUT RAN: PlacesAutoCompleteAdapter.getFilter
+  ENV-GATED BUT RAN: PlacesAutoCompleteAdapter$1.<init>
+  ENV-GATED BUT RAN: PlacesAutoCompleteAdapter$1.performFiltering
+  ENV-GATED BUT RAN: PlacesAutoCompleteAdapter$1.publishResults
+  ENV-GATED BUT RAN: RecyclerViewItemClickSupport.setOnItemLongClickListener
+  ENV-GATED BUT RAN: AlarmReceiver.<init>
+  ENV-GATED BUT RAN: AlarmReceiver.createNotification
+  ENV-GATED BUT RAN: AlarmReceiver.getUniqueRequestCode
+  ENV-GATED BUT RAN: AlarmReceiver.onReceive
+  ENV-GATED BUT RAN: AlarmReceiver.setRingtone
+  ENV-GATED BUT RAN: AlarmReceiver.setVibrate
+  ENV-GATED BUT RAN: AlarmReceiver.updateNote
+  ENV-GATED BUT RAN: NotificationListener.isRunning
+  ENV-GATED BUT RAN: ConnectionManager.internetAvailable
+  ENV-GATED BUT RAN: GeocodeHelper.autocomplete
+  ENV-GATED BUT RAN: GeocodeHelper.getLocation
+  ENV-GATED BUT RAN: GeocodeHelper.lambda$getAddressFromCoordinates$0
+  ENV-GATED BUT RAN: GeocodeHelper$1.<init>
+  ENV-GATED BUT RAN: GeocodeHelper$1.onNext
+  ENV-GATED BUT RAN: ParcelableUtil.unmarshall(byte[])
+  ENV-GATED BUT RAN: ParcelableUtil.unmarshall(byte[],Creator)
+  ENV-GATED BUT RAN: StorageHelper.copyFile(File,File)
+  ENV-GATED BUT RAN: StorageHelper.copyFile(InputStream,OutputStream)
+  ENV-GATED BUT RAN: StorageHelper.createNoMediaFile
+  ENV-GATED BUT RAN: StorageHelper.getBackupDir
+  ENV-GATED BUT RAN: StorageHelper.getSharedPreferencesFile
+  ENV-GATED BUT RAN: TextHelper.capitalize
+  ENV-GATED BUT RAN: TextHelper.getAlternativeTitle
+  ENV-GATED BUT RAN: NotificationsHelper.createNotification
+  ENV-GATED BUT RAN: NotificationsHelper.finish(int,Intent,String)
+  ENV-GATED BUT RAN: NotificationsHelper.finish(Intent,String)
+  ENV-GATED BUT RAN: NotificationsHelper.getBuilder
+  ENV-GATED BUT RAN: NotificationsHelper.setIndeterminate
+  ENV-GATED BUT RAN: NotificationsHelper.setLargeIcon(int)
+  ENV-GATED BUT RAN: NotificationsHelper.setLargeIcon(Bitmap)
+  ENV-GATED BUT RAN: NotificationsHelper.setLedActive
+  ENV-GATED BUT RAN: NotificationsHelper.setMessage
+  ENV-GATED BUT RAN: NotificationsHelper.setOngoing
+  ENV-GATED BUT RAN: NotificationsHelper.setVibration()
+  ENV-GATED BUT RAN: NotificationsHelper.setVibration(long[])
+  ENV-GATED BUT RAN: NotificationsHelper.show(long)
+  ENV-GATED BUT RAN: NotificationsHelper.start
+not in the JaCoCo report (filtered trivial methods): NoteLoaderTask.<init>, UpgradeProcessor.<init>, AppVersionHelper.<init>, AttachmentsHelper.<init>, BackupHelper.<init>, GeocodeProviderFactory.<init>, LanguageHelper.<init>, LogDelegate.<init>, PermissionsHelper.<init>, CountFactory.<init>, DateHelper.<init>, RecurrenceHelper.<init>, ONStyle.<init>, AlphaManager.<init>, AnimationsHelper.<init>, AssetUtils.<init>, BitmapHelper.<init>, ColorsUtil.<init>, ConnectionManager.<init>, Display.<init>, FileHelper.<init>, FileProviderHelper.<init>, IntentChecker.<init>, KeyboardUtils.<init>, MiscUtils.<init>, Navigation.<init>, ParcelableUtil.<init>, ReminderHelper.<init>, Security.<init>, ShortcutHelper.<init>
+errors: 0
+warnings: 0

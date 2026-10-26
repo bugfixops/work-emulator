@@ -1,0 +1,28 @@
+methods 145, pages 22, edges 393
+verdicts: REACHABLE 140, UNREACHABLE 5
+unreachable by kind: branch_never_taken 1, framework_never_calls 3, no_trigger_in_app 1
+edge kinds: ASYNC 9, CALL 113, ENTERS 56, ENTRY 4, FRAMEWORK 64, GUI 51, INTENT 12, LIFECYCLE 22, REGISTER 19, RESULT 10, SYSTEM 33
+edge classes: explicit 112, non_standard 5, page 57, standard 219; class set by hand: 11 of 393
+auto edges (from bytecode): 0 of 393
+evidence: FW-SRC 76, INFERRED 3, SRC 314
+edges with a claim that cites no source line (FW-MEMORY, INFERRED, DYN, UNVERIFIED): 8 of 393
+needs_state edges: 8; env edges: 30; methods with ENV: 40, with STATE: 6
+reachable methods whose best route has a non-standard edge: 4; with no explicit/standard-only route at all: 1
+labels confirmed by: INFERRED 1, SOURCE 144
+path status: SOURCE_OK 24, UNCHECKED 116
+verification label: checked 47, errors found 23 (rate 0.489), unclear 0
+verification edge: checked 20, errors found 0 (rate 0.0), unclear 3
+verification path: checked 24, errors found 1 (rate 0.042), unclear 4
+sanity check (tool coverage; never used to set a label): 103 methods ran in a tool run; 0 UNREACHABLE but ran (contradictions); 9 ENV-gated on the best route but ran
+  ENV-GATED BUT RAN: ChartParser.<init>
+  ENV-GATED BUT RAN: ChartParser.startParser(String)
+  ENV-GATED BUT RAN: Data.lambda$startParse$0
+  ENV-GATED BUT RAN: Data.lambda$startParse$2
+  ENV-GATED BUT RAN: Data.startParse
+  ENV-GATED BUT RAN: Main.onDateResult
+  ENV-GATED BUT RAN: Parser.startParser(String)
+  ENV-GATED BUT RAN: Singleton.lambda$startParse$1
+  ENV-GATED BUT RAN: Singleton.startParse
+not in the JaCoCo report (filtered trivial methods): Data.<init>, Singleton.<init>
+errors: 0
+warnings: 0

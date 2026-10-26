@@ -1,0 +1,3677 @@
+[
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.createShortcuts",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.getShortcut",
+  "desc": "(Ljava/lang/String;IILjava/lang/String;)Landroid/content/pm/ShortcutInfo;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.getShortcutForFileType",
+  "desc": "()Landroid/content/pm/ShortcutInfo;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.getShortcutForFolderType",
+  "desc": "()Landroid/content/pm/ShortcutInfo;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.getShortcutForTextType",
+  "desc": "()Landroid/content/pm/ShortcutInfo;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.onConfigurationChanged",
+  "desc": "(Landroid/content/res/Configuration;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.onCreate",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.onTerminate",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App",
+  "short": "App.setLocale",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App$1",
+  "short": "App$1.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/App;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/App$1",
+  "short": "App$1.extractById",
+  "desc": "(I)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/BuildConfig",
+  "short": "BuildConfig.<clinit>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/BuildConfig",
+  "short": "BuildConfig.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.create",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.getBundleForShortcutAction",
+  "desc": "(Ljava/lang/String;)Landroid/os/Bundle;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.getConfiguredBundleWithDataUri",
+  "desc": "(Landroid/net/Uri;)Landroid/os/Bundle;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.hideKeyboard",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.langHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.onBackPressed",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.showFragment",
+  "desc": "(Landroidx/fragment/app/Fragment;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/MainActivity",
+  "short": "MainActivity.themeHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/clipboard/Clipboard",
+  "short": "Clipboard.<init>",
+  "desc": "(Landroid/content/Context;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/clipboard/Clipboard",
+  "short": "Clipboard.clear",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/clipboard/Clipboard",
+  "short": "Clipboard.copy",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask",
+  "short": "HashCalculatorTask.<init>",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Landroid/net/Uri;Landroid/net/Uri;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask$HashCalculatorTaskTarget;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask",
+  "short": "HashCalculatorTask.<init>",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask$HashCalculatorTaskTarget;Z)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask",
+  "short": "HashCalculatorTask.<init>",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Ljava/lang/String;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask$HashCalculatorTaskTarget;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask",
+  "short": "HashCalculatorTask.doInBackground",
+  "desc": "([Ljava/lang/Void;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask",
+  "short": "HashCalculatorTask.onPostExecute",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.<init>",
+  "desc": "(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.getAdditionalIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.getFileExtension",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.getHashName",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.getHashTypeFromString",
+  "desc": "(Ljava/lang/String;)Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.getPrimaryIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.getTitle",
+  "desc": "(Landroid/content/Context;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.getTypeAsString",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType",
+  "short": "HashType.isKeccakj",
+  "desc": "()Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.<clinit>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.<init>",
+  "desc": "(I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.bytesToHex",
+  "desc": "([B)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.compress",
+  "desc": "([BI)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.doFinal",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.getValue",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.init",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.initializeVector",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.intToLittleEndian",
+  "desc": "(I[BI)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.littleEndianToInt",
+  "desc": "([BI)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.littleEndianToLong",
+  "desc": "([BI)J",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.longToLittleEndian",
+  "desc": "(J)[B",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.longToLittleEndian",
+  "desc": "(J[B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.mix",
+  "desc": "(JJIIII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.reset",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.rotateRight",
+  "desc": "(JI)J",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.update",
+  "desc": "(B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.update",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/Blake2B",
+  "short": "Blake2B.update",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.<clinit>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.getValue",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.reset",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.setInstance",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update1024",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update1024",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update128",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update128",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update256",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update256",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update32",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update32",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update512",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update512",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update64",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/FNV1a",
+  "short": "FNV1a.update64",
+  "desc": "([BII)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/hash/HashConstants",
+  "short": "HashConstants.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.fromFile",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.fromFile",
+  "desc": "(Ljava/io/InputStream;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.fromFolder",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.fromFolder",
+  "desc": "(Ljava/util/List;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.fromString",
+  "desc": "(Ljava/lang/String;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.inputStreamFromUri",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Ljava/io/InputStream;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.inputStreamsFormFolder",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Ljava/util/List;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator",
+  "short": "JdkHashCalculator.setHashType",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest",
+  "short": "JdkHashCalculatorDigest.instanceFor",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest",
+  "short": "JdkHashCalculatorDigest.instanceFor",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Ljava/lang/String;)Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest",
+  "short": "JdkHashCalculatorDigest.result",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest",
+  "short": "JdkHashCalculatorDigest.setHashType",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest",
+  "short": "JdkHashCalculatorDigest.update",
+  "desc": "([B)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest",
+  "short": "JdkHashCalculatorDigest.update",
+  "desc": "([BI)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashUtils",
+  "short": "JdkHashUtils.<clinit>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashUtils",
+  "short": "JdkHashUtils.getStringFromByteArray",
+  "desc": "([B)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashUtils",
+  "short": "JdkHashUtils.getStringFromLong",
+  "desc": "(J)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataExporter",
+  "short": "LocalDataExporter.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataExporter",
+  "short": "LocalDataExporter.createZip",
+  "desc": "(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataExporter",
+  "short": "LocalDataExporter.exportDatabase",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataExporter",
+  "short": "LocalDataExporter.getAppFolder",
+  "desc": "(Landroid/content/Context;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataExporter",
+  "short": "LocalDataExporter.getUserDataZip",
+  "desc": "(Landroid/content/Context;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteConfigUtil",
+  "short": "OrmLiteConfigUtil.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteConfigUtil",
+  "short": "OrmLiteConfigUtil.main",
+  "desc": "([Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.<init>",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.addHistoryItem",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.backupCheckpoint",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.deleteAllHistoryItems",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.getDatabaseFileName",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.getDatabaseFolder",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.historyItems",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion;)Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.isHistoryItemsListIsEmpty",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.onCreate",
+  "desc": "(Landroid/database/sqlite/SQLiteDatabase;Lcom/j256/ormlite/support/ConnectionSource;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.onUpgrade",
+  "desc": "(Landroid/database/sqlite/SQLiteDatabase;Lcom/j256/ormlite/support/ConnectionSource;II)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage",
+  "short": "OrmLiteLocalDataStorage.releaseHelper",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/DbEntity",
+  "short": "DbEntity.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/DbEntity",
+  "short": "DbEntity.getId",
+  "desc": "()J",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/DbEntity",
+  "short": "DbEntity.setId",
+  "desc": "(J)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.<init>",
+  "desc": "(Ljava/util/Date;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;ZLjava/lang/String;Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.equals",
+  "desc": "(Ljava/lang/Object;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.getGenerationDate",
+  "desc": "()Ljava/util/Date;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.getHashType",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.getHashValue",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.getObjectValue",
+  "desc": "()Ljava/lang/String;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.hashCode",
+  "desc": "()I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem",
+  "short": "HistoryItem.isFile",
+  "desc": "()Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/api/Language",
+  "short": "Language.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/api/Language",
+  "short": "Language.<init>",
+  "desc": "(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/api/Language",
+  "short": "Language.code",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/api/Language",
+  "short": "Language.getAdditionalIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/api/Language",
+  "short": "Language.getPrimaryIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/api/Language",
+  "short": "Language.getTitle",
+  "desc": "(Landroid/content/Context;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/impl/LanguageConfigImpl",
+  "short": "LanguageConfigImpl.<init>",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/impl/LanguageConfigImpl",
+  "short": "LanguageConfigImpl.applyLanguage",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/impl/LanguageConfigImpl",
+  "short": "LanguageConfigImpl.currentLanguage",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/impl/LanguageConfigImpl",
+  "short": "LanguageConfigImpl.setLanguage",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/locale/impl/LanguageConfigImpl",
+  "short": "LanguageConfigImpl.setLanguage",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.<init>",
+  "desc": "(Landroid/content/SharedPreferences;Lcom/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings$SharedPreferencesSettingsKeyExtractor;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.canSaveResultToHistory",
+  "desc": "()Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.canShowRateAppDialog",
+  "desc": "()Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.containsPreference",
+  "desc": "(Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getBooleanPreference",
+  "desc": "(Ljava/lang/String;Z)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getIntPreference",
+  "desc": "(Ljava/lang/String;)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getLanguage",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getLastHashType",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getSelectedTheme",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getStringPreference",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getTheme",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getThemeAnalogue",
+  "desc": "(Ljava/lang/String;)Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.getVibrateAccess",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.increaseHashGenerationCount",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.isShortcutsIsCreated",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.isUsingMultilineHashFields",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.languageIsInitialized",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.refreshSelectedFile",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.saveBooleanPreference",
+  "desc": "(Ljava/lang/String;Z)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.saveHashTypeAsLast",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.saveIntPreference",
+  "desc": "(Ljava/lang/String;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.saveLanguage",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.saveShortcutsStatus",
+  "desc": "(Z)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.saveStringPreference",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.saveTheme",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.setGenerateFromShareIntentMode",
+  "desc": "(Z)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.setRefreshSelectedFileStatus",
+  "desc": "(Z)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.useUpperCase",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings",
+  "short": "SharedPreferencesSettings.validateAppTheme",
+  "desc": "(Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings$SharedPreferencesSettingsKeyExtractor",
+  "short": "SharedPreferencesSettings$SharedPreferencesSettingsKeyExtractor.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme",
+  "short": "Theme.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme",
+  "short": "Theme.<init>",
+  "desc": "(Ljava/lang/String;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme",
+  "short": "Theme.getAdditionalIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme",
+  "short": "Theme.getPrimaryIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme",
+  "short": "Theme.getThemeResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme",
+  "short": "Theme.getTitle",
+  "desc": "(Landroid/content/Context;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.<init>",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.applyAccentColorToImage",
+  "desc": "(Landroid/graphics/drawable/Drawable;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.currentTheme",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.getAccentColor",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.getColorFromAttrs",
+  "desc": "(I)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.getCommonBackgroundColor",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.getCommonTextColor",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl",
+  "short": "ThemeConfigImpl.setCurrentTheme",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/vibrator/Vibrator",
+  "short": "Vibrator.<init>",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/components/vibrator/Vibrator",
+  "short": "Vibrator.vibrate",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder",
+  "short": "DaggerAppComponent$Builder.build",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/di/components/AppComponent;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder",
+  "short": "DaggerAppComponent$Builder.databaseHelperModule",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder",
+  "short": "DaggerAppComponent$Builder.langHelperModule",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder",
+  "short": "DaggerAppComponent$Builder.settingsHelperModule",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder",
+  "short": "DaggerAppComponent$Builder.themeHelperModule",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule",
+  "short": "DatabaseHelperModule.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule",
+  "short": "DatabaseHelperModule.databaseHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule",
+  "short": "LangHelperModule.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule",
+  "short": "LangHelperModule.langHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule",
+  "short": "SettingsHelperModule.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule",
+  "short": "SettingsHelperModule.settingsHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule",
+  "short": "ThemeHelperModule.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule",
+  "short": "ThemeHelperModule.themeHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/Feedback",
+  "short": "Feedback.<init>",
+  "desc": "(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/Feedback",
+  "short": "Feedback.getAppInfo",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/Feedback",
+  "short": "Feedback.getConfiguredMessage",
+  "desc": "(Ljava/lang/String;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/Feedback",
+  "short": "Feedback.manufacturer",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/Feedback",
+  "short": "Feedback.model",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/Feedback",
+  "short": "Feedback.osVersion",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/presenter/FeedbackPresenterImpl",
+  "short": "FeedbackPresenterImpl.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/presenter/FeedbackPresenterImpl",
+  "short": "FeedbackPresenterImpl.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/presenter/FeedbackPresenterImpl",
+  "short": "FeedbackPresenterImpl.init",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackView;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/presenter/FeedbackPresenterImpl",
+  "short": "FeedbackPresenterImpl.sendFeedback",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.getActionBarTitleResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.getBackActionIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.getLayoutResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.getMenuResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.langHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.sendEmail",
+  "desc": "(Landroid/content/Intent;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.setAllowBackAction",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.showAndroidVersion",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.showAppInfo",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.showManufacturer",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment",
+  "short": "FeedbackFragment.showModel",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.appBackClick",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.appResume",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.checkArguments",
+  "desc": "(Landroid/os/Bundle;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.checkExternalDataPresence",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.checkFileManagerChanged",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.checkMultilinePreference",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.checkShortcutActionPresence",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.compareHashes",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.compareText",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.convertToLowerCase",
+  "desc": "(Landroid/widget/EditText;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.convertToUpperCase",
+  "desc": "(Landroid/widget/EditText;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.copyHashFromEditText",
+  "desc": "(Landroid/widget/EditText;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.enterText",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.fieldIsNotEmpty",
+  "desc": "(Landroid/widget/EditText;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.fileNameFromUri",
+  "desc": "(Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.folderNameFromUri",
+  "desc": "(Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.generateHash",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.getActionBarTitleResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.getLayoutResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.getMenuResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.hashTypeSelect",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$appBackClick$2",
+  "desc": "(Landroid/app/Activity;Landroid/view/View;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$appBackClick$3",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$new$0",
+  "desc": "(Landroid/view/View;Landroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$new$1",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$onViewCreated$10",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$onViewCreated$4",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$onViewCreated$5",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$onViewCreated$6",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$onViewCreated$7",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$onViewCreated$8",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.lambda$onViewCreated$9",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.langHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.onActivityResult",
+  "desc": "(IILandroid/content/Intent;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.openSystemFileManager",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.openSystemFolderManager",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.saveGeneratedHashAsTextFile",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.saveTextFile",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.selectFileFromSystemFileManager",
+  "desc": "(Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.selectFolderFromSystemFileManager",
+  "desc": "(Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.selectHashTypeFromList",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.setAllowBackAction",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.setResult",
+  "desc": "(Ljava/lang/String;Z)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.showSnachbarWithAction",
+  "desc": "(Landroid/view/View;ILjava/lang/String;Landroid/view/View$OnClickListener;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.showSnackbarWithoutAction",
+  "desc": "(I)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.textValueEntered",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.userActionSelect",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.validateMultilineFields",
+  "desc": "(Landroid/widget/EditText;IZ)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.validateSelectedFile",
+  "desc": "(Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.validateSelectedFolder",
+  "desc": "(Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.validateTextCase",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.watcherForInputField",
+  "desc": "(Landroid/widget/ImageView;Landroid/widget/ImageView;)Landroid/text/TextWatcher;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment",
+  "short": "HashCalculatorFragment.writeHashToFile",
+  "desc": "(Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment$1",
+  "short": "HashCalculatorFragment$1.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;Landroid/widget/ImageView;Landroid/widget/ImageView;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment$1",
+  "short": "HashCalculatorFragment$1.onTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextInputDialog",
+  "short": "TextInputDialog.<init>",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextValueTarget;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextInputDialog",
+  "short": "TextInputDialog.getLayoutResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextInputDialog",
+  "short": "TextInputDialog.initializeDialog",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextInputDialog",
+  "short": "TextInputDialog.lambda$initializeDialog$0",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextInputDialog",
+  "short": "TextInputDialog.setupDialogStyle",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action",
+  "short": "Action.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action",
+  "short": "Action.<init>",
+  "desc": "(Ljava/lang/String;IIILcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action",
+  "short": "Action.getAdditionalIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action",
+  "short": "Action.getPrimaryIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action",
+  "short": "Action.getTitle",
+  "desc": "(Landroid/content/Context;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action",
+  "short": "Action.getUserActionType",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType",
+  "short": "UserActionType.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet",
+  "short": "ActionSelectActionsBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet",
+  "short": "ActionSelectActionsBottomSheet.getActions",
+  "desc": "()Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet",
+  "short": "ActionSelectActionsBottomSheet.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet",
+  "short": "ActionSelectActionsBottomSheet.themeHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsBottomSheet",
+  "short": "ActionsBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsBottomSheet",
+  "short": "ActionsBottomSheet.getItemsAdapter",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter",
+  "short": "ActionsListAdapter.<init>",
+  "desc": "(Ljava/util/List;Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionTarget;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter",
+  "short": "ActionsListAdapter.getItemsHolder",
+  "desc": "(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter$ActionHolder",
+  "short": "ActionsListAdapter$ActionHolder.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter;Landroid/content/Context;Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter$ActionHolder",
+  "short": "ActionsListAdapter$ActionHolder.bind",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter$ActionHolder",
+  "short": "ActionsListAdapter$ActionHolder.callItemClick",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter$ActionHolder",
+  "short": "ActionsListAdapter$ActionHolder.getConditionToPrimaryIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet",
+  "short": "SourceSelectActionsBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet",
+  "short": "SourceSelectActionsBottomSheet.getActions",
+  "desc": "()Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet",
+  "short": "SourceSelectActionsBottomSheet.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet",
+  "short": "SourceSelectActionsBottomSheet.themeHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet",
+  "short": "GenerateToBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet",
+  "short": "GenerateToBottomSheet.getItemsAdapter",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet",
+  "short": "GenerateToBottomSheet.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter",
+  "short": "HashesListAdapter.<init>",
+  "desc": "(Ljava/util/List;Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashTypeSelectTarget;Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter",
+  "short": "HashesListAdapter.getItemsHolder",
+  "desc": "(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter$HashesListHolder",
+  "short": "HashesListAdapter$HashesListHolder.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter;Landroid/content/Context;Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter$HashesListHolder",
+  "short": "HashesListAdapter$HashesListHolder.bind",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter$HashesListHolder",
+  "short": "HashesListAdapter$HashesListHolder.callItemClick",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter$HashesListHolder",
+  "short": "HashesListAdapter$HashesListHolder.getConditionToAdditionalIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl",
+  "short": "HistoryPresenterImpl.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl",
+  "short": "HistoryPresenterImpl.clearHistory",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl",
+  "short": "HistoryPresenterImpl.dataPortion",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl",
+  "short": "HistoryPresenterImpl.init",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryView;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl",
+  "short": "HistoryPresenterImpl.isLoaded",
+  "desc": "()Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl",
+  "short": "HistoryPresenterImpl.load",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl",
+  "short": "HistoryPresenterImpl.postLoad",
+  "desc": "(Ljava/util/List;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.getActionBarTitleResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.getBackActionIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.getLayoutResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.getMenuResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.getPrimaryMenuButton",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.lambda$onOptionsItemSelected$0",
+  "desc": "(Landroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.langHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.refreshHistory",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.setAllowBackAction",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.setLoaded",
+  "desc": "(Ljava/util/List;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment",
+  "short": "HistoryFragment.setLoading",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment$1",
+  "short": "HistoryFragment$1.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment$1",
+  "short": "HistoryFragment$1.canLoad",
+  "desc": "(II)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment$1",
+  "short": "HistoryFragment$1.onScrolled",
+  "desc": "(Landroidx/recyclerview/widget/RecyclerView;II)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder",
+  "short": "HistoryItemHolder.<init>",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder",
+  "short": "HistoryItemHolder.bind",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder",
+  "short": "HistoryItemHolder.initializeDate",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder",
+  "short": "HistoryItemHolder.initializeHashType",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder",
+  "short": "HistoryItemHolder.initializeObjectData",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder",
+  "short": "HistoryItemHolder.lambda$bind$0",
+  "desc": "(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;Landroid/view/View;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemsAdapter",
+  "short": "HistoryItemsAdapter.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemsAdapter",
+  "short": "HistoryItemsAdapter.addHistoryItems",
+  "desc": "(Ljava/util/List;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemsAdapter",
+  "short": "HistoryItemsAdapter.getItemCount",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemsAdapter",
+  "short": "HistoryItemsAdapter.onBindViewHolder",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder;I)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemsAdapter",
+  "short": "HistoryItemsAdapter.onCreateViewHolder",
+  "desc": "(Landroid/view/ViewGroup;I)Lcom/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryItemsLoaderTask",
+  "short": "HistoryItemsLoaderTask.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryItemsLoaderTaskTarget;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryItemsLoaderTask",
+  "short": "HistoryItemsLoaderTask.completeLoad",
+  "desc": "(Ljava/util/List;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryItemsLoaderTask",
+  "short": "HistoryItemsLoaderTask.doInBackground",
+  "desc": "([Ljava/lang/Void;)Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryItemsLoaderTask",
+  "short": "HistoryItemsLoaderTask.onPostExecute",
+  "desc": "(Ljava/util/List;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion",
+  "short": "HistoryPortion.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion",
+  "short": "HistoryPortion.isLoaded",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion",
+  "short": "HistoryPortion.page",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion",
+  "short": "HistoryPortion.pageSize",
+  "desc": "()J",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion",
+  "short": "HistoryPortion.setLoaded",
+  "desc": "(Z)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion",
+  "short": "HistoryPortion.setPage",
+  "desc": "(I)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenter$SaveUserDataResult",
+  "short": "SettingsPresenter$SaveUserDataResult.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenterImpl",
+  "short": "SettingsPresenterImpl.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenterImpl",
+  "short": "SettingsPresenterImpl.init",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsView;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenterImpl",
+  "short": "SettingsPresenterImpl.saveUserData",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.appBackClick",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.appResume",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.copyFile",
+  "desc": "(Ljava/io/File;Ljava/io/FileOutputStream;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.copyUserDataToUserFolder",
+  "desc": "(Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initAppVersionInfo",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initAuthorLinks",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initFeedback",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initHelpWithTranslations",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initLanguageSettings",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initLibrariesLinks",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initPrivacyPolicy",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initRate",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initThemeSettings",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initUserDataExport",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.initializeActionBar",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initAppVersionInfo$9",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initAuthorLinks$4",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initFeedback$8",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initHelpWithTranslations$6",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initLanguageSettings$0",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initLibrariesLinks$5",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initPrivacyPolicy$2",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initRate$7",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initThemeSettings$1",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.lambda$initUserDataExport$3",
+  "desc": "(Landroidx/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.onActivityResult",
+  "desc": "(IILandroid/content/Intent;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.onCreateOptionsMenu",
+  "desc": "(Landroid/view/Menu;Landroid/view/MenuInflater;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.onCreatePreferences",
+  "desc": "(Landroid/os/Bundle;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.onResume",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment",
+  "short": "SettingsFragment.saveUserDataResult",
+  "desc": "(Landroid/util/Pair;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet",
+  "short": "LanguagesBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet",
+  "short": "LanguagesBottomSheet.getItemsAdapter",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet",
+  "short": "LanguagesBottomSheet.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter",
+  "short": "LanguagesListAdapter.<init>",
+  "desc": "(Ljava/util/List;Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter",
+  "short": "LanguagesListAdapter.getItemsHolder",
+  "desc": "(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter$LanguagesListHolder",
+  "short": "LanguagesListAdapter$LanguagesListHolder.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter;Landroid/content/Context;Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter$LanguagesListHolder",
+  "short": "LanguagesListAdapter$LanguagesListHolder.bind",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter$LanguagesListHolder",
+  "short": "LanguagesListAdapter$LanguagesListHolder.callItemClick",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter$LanguagesListHolder",
+  "short": "LanguagesListAdapter$LanguagesListHolder.getConditionToAdditionalIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter$LanguagesListHolder",
+  "short": "LanguagesListAdapter$LanguagesListHolder.lambda$callItemClick$0",
+  "desc": "(Landroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet",
+  "short": "ThemesBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet",
+  "short": "ThemesBottomSheet.getItemsAdapter",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet",
+  "short": "ThemesBottomSheet.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter",
+  "short": "ThemesListAdapter.<init>",
+  "desc": "(Ljava/util/List;Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter",
+  "short": "ThemesListAdapter.getItemsHolder",
+  "desc": "(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter;Landroid/content/Context;Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.bind",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.callItemClick",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.configureNewTheme",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.getConditionToAdditionalIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.getConditionToPrimaryIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.lambda$showThemeApplyDialog$0",
+  "desc": "(Landroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder",
+  "short": "ThemesListAdapter$ThemesListHolder.showThemeApplyDialog",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet",
+  "short": "AuthorWebLinksBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet",
+  "short": "AuthorWebLinksBottomSheet.getLinks",
+  "desc": "()Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet",
+  "short": "AuthorWebLinksBottomSheet.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet",
+  "short": "AuthorWebLinksBottomSheet.themeHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet",
+  "short": "LibrariesWebLinksBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet",
+  "short": "LibrariesWebLinksBottomSheet.getLinks",
+  "desc": "()Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet",
+  "short": "LibrariesWebLinksBottomSheet.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet",
+  "short": "LibrariesWebLinksBottomSheet.themeHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet",
+  "short": "PrivacyPolicyWebLinksBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet",
+  "short": "PrivacyPolicyWebLinksBottomSheet.getLinks",
+  "desc": "()Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet",
+  "short": "PrivacyPolicyWebLinksBottomSheet.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet",
+  "short": "PrivacyPolicyWebLinksBottomSheet.themeHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.<init>",
+  "desc": "(Ljava/lang/String;IIII)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.getAdditionalIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.getAuthorLinks",
+  "desc": "()Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.getLibrariesLinks",
+  "desc": "()Ljava/util/List;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.getLinkResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.getPrimaryIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink",
+  "short": "WebLink.getTitle",
+  "desc": "(Landroid/content/Context;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksBottomSheet",
+  "short": "WebLinksBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksBottomSheet",
+  "short": "WebLinksBottomSheet.getItemsAdapter",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter",
+  "short": "WebLinksListAdapter.<init>",
+  "desc": "(Landroid/content/Context;Ljava/util/List;Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter",
+  "short": "WebLinksListAdapter.getItemsHolder",
+  "desc": "(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter$WebLinksListHolder",
+  "short": "WebLinksListAdapter$WebLinksListHolder.<init>",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter;Landroid/content/Context;Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter$WebLinksListHolder",
+  "short": "WebLinksListAdapter$WebLinksListHolder.bind",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter$WebLinksListHolder",
+  "short": "WebLinksListAdapter$WebLinksListHolder.callItemClick",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter$WebLinksListHolder",
+  "short": "WebLinksListAdapter$WebLinksListHolder.getConditionToPrimaryIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.<init>",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.getActionBarTitleResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.getBackActionIconResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.getLayoutResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.getMenuResId",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.langHelper",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.onAttach",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/features/webview/WebFragment",
+  "short": "WebFragment.setAllowBackAction",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseActivity",
+  "short": "BaseActivity.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseActivity",
+  "short": "BaseActivity.getTheme",
+  "desc": "()Landroid/content/res/Resources$Theme;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseActivity",
+  "short": "BaseActivity.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.appBackClick",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.appResume",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.getBackActionIconResId",
+  "desc": "()I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.getPrimaryMenuButton",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.onCreateOptionsMenu",
+  "desc": "(Landroid/view/Menu;Landroid/view/MenuInflater;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.onCreateView",
+  "desc": "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.onResume",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/BaseFragment",
+  "short": "BaseFragment.setAllowBackAction",
+  "desc": "()Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet",
+  "short": "BaseListBottomSheet.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet",
+  "short": "BaseListBottomSheet.key",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet",
+  "short": "BaseListBottomSheet.onCreateView",
+  "desc": "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet",
+  "short": "BaseListBottomSheet.onViewCreated",
+  "desc": "(Landroid/view/View;Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter",
+  "short": "BaseListAdapter.<init>",
+  "desc": "(Ljava/util/List;Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter",
+  "short": "BaseListAdapter.dismissBottomSheet",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter",
+  "short": "BaseListAdapter.getBottomSheet",
+  "desc": "()Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter",
+  "short": "BaseListAdapter.getItemCount",
+  "desc": "()I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter",
+  "short": "BaseListAdapter.onBindViewHolder",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;I)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter",
+  "short": "BaseListAdapter.onCreateViewHolder",
+  "desc": "(Landroid/view/ViewGroup;I)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder",
+  "short": "BaseListHolder.<init>",
+  "desc": "(Landroid/content/Context;Landroid/view/View;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder",
+  "short": "BaseListHolder.bind",
+  "desc": "(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder",
+  "short": "BaseListHolder.getConditionToAdditionalIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder",
+  "short": "BaseListHolder.getConditionToPrimaryIconVisibleState",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder",
+  "short": "BaseListHolder.getContext",
+  "desc": "()Landroid/content/Context;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder",
+  "short": "BaseListHolder.getIvItemAdditionalIcon",
+  "desc": "()Landroid/widget/ImageView;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder",
+  "short": "BaseListHolder.lambda$bind$0",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/BaseDialog",
+  "short": "BaseDialog.<init>",
+  "desc": "(Landroid/content/Context;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/BaseDialog",
+  "short": "BaseDialog.initializeDialog",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/BaseDialog",
+  "short": "BaseDialog.lambda$initializeDialog$0",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/BaseDialog",
+  "short": "BaseDialog.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/BaseDialog",
+  "short": "BaseDialog.setupDialogStyle",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppAlertDialog",
+  "short": "AppAlertDialog.<init>",
+  "desc": "(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppAlertDialog",
+  "short": "AppAlertDialog.lambda$show$0",
+  "desc": "(Landroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppAlertDialog",
+  "short": "AppAlertDialog.lambda$show$1",
+  "desc": "(Landroid/content/DialogInterface;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppAlertDialog",
+  "short": "AppAlertDialog.show",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppProgressDialog",
+  "short": "AppProgressDialog.<init>",
+  "desc": "(Landroid/content/Context;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppProgressDialog",
+  "short": "AppProgressDialog.getDialog",
+  "desc": "()Landroid/app/ProgressDialog;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppSnackbar",
+  "short": "AppSnackbar.<init>",
+  "desc": "(Landroid/content/Context;Landroid/view/View;ILcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppSnackbar",
+  "short": "AppSnackbar.<init>",
+  "desc": "(Landroid/content/Context;Landroid/view/View;ILjava/lang/String;Landroid/view/View$OnClickListener;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppSnackbar",
+  "short": "AppSnackbar.lambda$show$0",
+  "desc": "(Lcom/google/android/material/snackbar/Snackbar;Landroid/view/View;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppSnackbar",
+  "short": "AppSnackbar.show",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/watchers/AppTextWatcher",
+  "short": "AppTextWatcher.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/watchers/AppTextWatcher",
+  "short": "AppTextWatcher.afterTextChanged",
+  "desc": "(Landroid/text/Editable;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/watchers/AppTextWatcher",
+  "short": "AppTextWatcher.beforeTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/ui/watchers/AppTextWatcher",
+  "short": "AppTextWatcher.onTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/utils/AppUtils",
+  "short": "AppUtils.restartApp",
+  "desc": "(Landroid/app/Activity;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/utils/LogUtils",
+  "short": "LogUtils.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/utils/LogUtils",
+  "short": "LogUtils.e",
+  "desc": "(Ljava/lang/Throwable;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/utils/UIUtils",
+  "short": "UIUtils.removeFragment",
+  "desc": "(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/utils/WebUtils",
+  "short": "WebUtils.openGooglePlay",
+  "desc": "(Landroid/content/Context;Landroid/view/View;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "com/smlnskgmail/jaman/hashchecker/utils/WebUtils",
+  "short": "WebUtils.openWebLink",
+  "desc": "(Landroid/content/Context;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ }
+]

@@ -1,0 +1,20 @@
+methods 529, pages 39, edges 1314
+verdicts: REACHABLE 507, UNREACHABLE 22
+unreachable by kind: closed_by_configuration 3, framework_never_calls 3, no_trigger_in_app 16
+edge kinds: ASYNC 10, CALL 921, ENTERS 87, ENTRY 5, FRAMEWORK 53, GUI 115, INTENT 1, LIFECYCLE 62, REGISTER 30, RESULT 8, SYSTEM 22
+edge classes: explicit 874, non_standard 48, page 89, standard 303; class set by hand: 65 of 1314
+auto edges (from bytecode): 654 of 1314
+evidence: FW-SRC 49, INFERRED 100, SRC 1165
+edges with a claim that cites no source line (FW-MEMORY, INFERRED, DYN, UNVERIFIED): 157 of 1314
+needs_state edges: 113; env edges: 48; methods with ENV: 35, with STATE: 87
+reachable methods whose best route has a non-standard edge: 5; with no explicit/standard-only route at all: 5
+labels confirmed by: INFERRED 453, SOURCE 76
+path status: SOURCE_OK 37, UNCHECKED 470
+verification label: checked 52, errors found 2 (rate 0.038), unclear 0
+verification edge: checked 35, errors found 26 (rate 0.743), unclear 0
+verification path: checked 37, errors found 13 (rate 0.351), unclear 0
+sanity check (tool coverage; never used to set a label): 404 methods ran in a tool run; 0 UNREACHABLE but ran (contradictions); 1 ENV-gated on the best route but ran
+  ENV-GATED BUT RAN: Clipboard.clear
+not in the JaCoCo report (filtered trivial methods): JdkHashCalculatorDigest.<init>, JdkHashUtils.<init>, DaggerAppComponent$Builder.<init>, AppUtils.<init>, UIUtils.<init>, WebUtils.<init>
+errors: 0
+warnings: 0

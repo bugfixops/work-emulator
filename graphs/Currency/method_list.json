@@ -1,0 +1,1058 @@
+[
+ {
+  "class": "org/billthefarmer/currency/AboutPreference",
+  "short": "AboutPreference.<init>",
+  "name": "<init>",
+  "desc": "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/AboutPreference",
+  "short": "AboutPreference.onBindDialogView",
+  "name": "onBindDialogView",
+  "desc": "(Landroid/view/View;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.lambda$onCreate$0",
+  "name": "lambda$onCreate$0",
+  "desc": "(Landroid/view/View;)V",
+  "flags": [
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onActivityResult",
+  "name": "onActivityResult",
+  "desc": "(IILandroid/content/Intent;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onCreateOptionsMenu",
+  "name": "onCreateOptionsMenu",
+  "desc": "(Landroid/view/Menu;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onDataResult",
+  "name": "onDataResult",
+  "desc": "(Ljava/util/Map;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onDateResult",
+  "name": "onDateResult",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onInvertClick",
+  "name": "onInvertClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onMaxClick",
+  "name": "onMaxClick",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onMonthClick",
+  "name": "onMonthClick",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onNewClick",
+  "name": "onNewClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onOptionsItemSelected",
+  "name": "onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onPause",
+  "name": "onPause",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onPrepareOptionsMenu",
+  "name": "onPrepareOptionsMenu",
+  "desc": "(Landroid/view/Menu;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onQuarterClick",
+  "name": "onQuarterClick",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onRefreshClick",
+  "name": "onRefreshClick",
+  "desc": "(Ljava/lang/String;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onResume",
+  "name": "onResume",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onSaveInstanceState",
+  "name": "onSaveInstanceState",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onWeekClick",
+  "name": "onWeekClick",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onYearClick",
+  "name": "onYearClick",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.onYearsClick",
+  "name": "onYearsClick",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.showToast",
+  "name": "showToast",
+  "desc": "(I[Ljava/lang/Object;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.showToast",
+  "name": "showToast",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.showToast",
+  "name": "showToast",
+  "desc": "(Ljava/lang/String;[Ljava/lang/Object;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity",
+  "short": "ChartActivity.updateRange",
+  "name": "updateRange",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity$DateAxisValueFormatter",
+  "short": "ChartActivity$DateAxisValueFormatter.<init>",
+  "name": "<init>",
+  "desc": "(Lorg/billthefarmer/currency/ChartActivity;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartActivity$DateAxisValueFormatter",
+  "short": "ChartActivity$DateAxisValueFormatter.getFormattedValue",
+  "name": "getFormattedValue",
+  "desc": "(F)Ljava/lang/String;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartParser",
+  "short": "ChartParser.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartParser",
+  "short": "ChartParser.getDate",
+  "name": "getDate",
+  "desc": "()Ljava/lang/String;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartParser",
+  "short": "ChartParser.getMap",
+  "name": "getMap",
+  "desc": "()Ljava/util/Map;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartParser",
+  "short": "ChartParser.startParser",
+  "name": "startParser",
+  "desc": "(Landroid/content/Context;I)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartParser",
+  "short": "ChartParser.startParser",
+  "name": "startParser",
+  "desc": "(Ljava/lang/String;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartParser$Handler",
+  "short": "ChartParser$Handler.<init>",
+  "name": "<init>",
+  "desc": "(Lorg/billthefarmer/currency/ChartParser;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChartParser$Handler",
+  "short": "ChartParser$Handler.startElement",
+  "name": "startElement",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceAdapter",
+  "short": "ChoiceAdapter.<init>",
+  "name": "<init>",
+  "desc": "(Landroid/content/Context;ILjava/util/List;Ljava/util/List;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceAdapter",
+  "short": "ChoiceAdapter.getCount",
+  "name": "getCount",
+  "desc": "()I",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceAdapter",
+  "short": "ChoiceAdapter.getItem",
+  "name": "getItem",
+  "desc": "(I)Ljava/lang/Object;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceAdapter",
+  "short": "ChoiceAdapter.getItemId",
+  "name": "getItemId",
+  "desc": "(I)J",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceAdapter",
+  "short": "ChoiceAdapter.getView",
+  "name": "getView",
+  "desc": "(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceDialog",
+  "short": "ChoiceDialog.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceDialog",
+  "short": "ChoiceDialog.onClick",
+  "name": "onClick",
+  "desc": "(Landroid/view/View;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceDialog",
+  "short": "ChoiceDialog.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceDialog",
+  "short": "ChoiceDialog.onItemClick",
+  "name": "onItemClick",
+  "desc": "(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceDialog",
+  "short": "ChoiceDialog.onItemLongClick",
+  "name": "onItemLongClick",
+  "desc": "(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceDialog",
+  "short": "ChoiceDialog.onRestoreInstanceState",
+  "name": "onRestoreInstanceState",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/ChoiceDialog",
+  "short": "ChoiceDialog.onSaveInstanceState",
+  "name": "onSaveInstanceState",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyAdapter",
+  "short": "CurrencyAdapter.<init>",
+  "name": "<init>",
+  "desc": "(Landroid/content/Context;ILjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyAdapter",
+  "short": "CurrencyAdapter.getCount",
+  "name": "getCount",
+  "desc": "()I",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyAdapter",
+  "short": "CurrencyAdapter.getItem",
+  "name": "getItem",
+  "desc": "(I)Ljava/lang/Object;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyAdapter",
+  "short": "CurrencyAdapter.getItemId",
+  "name": "getItemId",
+  "desc": "(I)J",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyAdapter",
+  "short": "CurrencyAdapter.getView",
+  "name": "getView",
+  "desc": "(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetConfigure",
+  "short": "CurrencyWidgetConfigure.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetConfigure",
+  "short": "CurrencyWidgetConfigure.lambda$onCreate$0",
+  "name": "lambda$onCreate$0",
+  "desc": "(Landroid/content/SharedPreferences;Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+  "flags": [
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetConfigure",
+  "short": "CurrencyWidgetConfigure.lambda$onCreate$1",
+  "name": "lambda$onCreate$1",
+  "desc": "(Landroid/view/View;)V",
+  "flags": [
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetConfigure",
+  "short": "CurrencyWidgetConfigure.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetProvider",
+  "short": "CurrencyWidgetProvider.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetProvider",
+  "short": "CurrencyWidgetProvider.onDeleted",
+  "name": "onDeleted",
+  "desc": "(Landroid/content/Context;[I)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetProvider",
+  "short": "CurrencyWidgetProvider.onReceive",
+  "name": "onReceive",
+  "desc": "(Landroid/content/Context;Landroid/content/Intent;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetProvider",
+  "short": "CurrencyWidgetProvider.onUpdate",
+  "name": "onUpdate",
+  "desc": "(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetRefresh",
+  "short": "CurrencyWidgetRefresh.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetRefresh",
+  "short": "CurrencyWidgetRefresh.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.lambda$startUpdate$0",
+  "name": "lambda$startUpdate$0",
+  "desc": "(Landroid/widget/RemoteViews;Landroid/appwidget/AppWidgetManager;[I)V",
+  "flags": [
+   "static",
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.onBind",
+  "name": "onBind",
+  "desc": "(Landroid/content/Intent;)Landroid/os/IBinder;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.onCreate",
+  "name": "onCreate",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.onDataResult",
+  "name": "onDataResult",
+  "desc": "(Ljava/util/Map;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.onDateResult",
+  "name": "onDateResult",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.onDestroy",
+  "name": "onDestroy",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.onStartCommand",
+  "name": "onStartCommand",
+  "desc": "(Landroid/content/Intent;II)I",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/CurrencyWidgetUpdate",
+  "short": "CurrencyWidgetUpdate.startUpdate",
+  "name": "startUpdate",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.getInstance",
+  "name": "getInstance",
+  "desc": "(Lorg/billthefarmer/currency/Data$OnResultListener;)Lorg/billthefarmer/currency/Data;",
+  "flags": [
+   "static"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.getList",
+  "name": "getList",
+  "desc": "()Ljava/util/List;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.getMap",
+  "name": "getMap",
+  "desc": "()Ljava/util/Map;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.lambda$startParse$0",
+  "name": "lambda$startParse$0",
+  "desc": "()V",
+  "flags": [
+   "static",
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.lambda$startParse$1",
+  "name": "lambda$startParse$1",
+  "desc": "(Lorg/billthefarmer/currency/Parser;)V",
+  "flags": [
+   "static",
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.lambda$startParse$2",
+  "name": "lambda$startParse$2",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": [
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.setList",
+  "name": "setList",
+  "desc": "(Ljava/util/List;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.setMap",
+  "name": "setMap",
+  "desc": "(Ljava/util/Map;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Data",
+  "short": "Data.startParse",
+  "name": "startParse",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/HelpActivity",
+  "short": "HelpActivity.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/HelpActivity",
+  "short": "HelpActivity.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/HelpActivity",
+  "short": "HelpActivity.onOptionsItemSelected",
+  "name": "onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/HelpActivity",
+  "short": "HelpActivity.read",
+  "name": "read",
+  "desc": "(Landroid/content/Context;I)Ljava/lang/CharSequence;",
+  "flags": [
+   "static"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.<clinit>",
+  "name": "<clinit>",
+  "desc": "()V",
+  "flags": [
+   "static"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.afterTextChanged",
+  "name": "afterTextChanged",
+  "desc": "(Landroid/text/Editable;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.beforeTextChanged",
+  "name": "beforeTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.currencyIndex",
+  "name": "currencyIndex",
+  "desc": "(Ljava/lang/String;)I",
+  "flags": [
+   "static"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.lambda$onCreate$0",
+  "name": "lambda$onCreate$0",
+  "desc": "(Landroid/view/View;)V",
+  "flags": [
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.lambda$onUpdateClick$1",
+  "name": "lambda$onUpdateClick$1",
+  "desc": "(Ljava/text/NumberFormat;Ljava/text/NumberFormat;Landroid/content/DialogInterface;I)V",
+  "flags": [
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onActivityResult",
+  "name": "onActivityResult",
+  "desc": "(IILandroid/content/Intent;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onAddClick",
+  "name": "onAddClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onChartClick",
+  "name": "onChartClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onClearClick",
+  "name": "onClearClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onClick",
+  "name": "onClick",
+  "desc": "(Landroid/view/View;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onCopyClick",
+  "name": "onCopyClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onCreateOptionsMenu",
+  "name": "onCreateOptionsMenu",
+  "desc": "(Landroid/view/Menu;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onDataResult",
+  "name": "onDataResult",
+  "desc": "(Ljava/util/Map;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onDateResult",
+  "name": "onDateResult",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onEditorAction",
+  "name": "onEditorAction",
+  "desc": "(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onHelpClick",
+  "name": "onHelpClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onItemClick",
+  "name": "onItemClick",
+  "desc": "(Landroid/widget/AdapterView;Landroid/view/View;IJ)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onItemLongClick",
+  "name": "onItemLongClick",
+  "desc": "(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onMenuItemClick",
+  "name": "onMenuItemClick",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onOptionsItemSelected",
+  "name": "onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onPause",
+  "name": "onPause",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onRefreshClick",
+  "name": "onRefreshClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onRemoveClick",
+  "name": "onRemoveClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onResume",
+  "name": "onResume",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onSettingsClick",
+  "name": "onSettingsClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onTextChanged",
+  "name": "onTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.onUpdateClick",
+  "name": "onUpdateClick",
+  "desc": "()Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.updateDialog",
+  "name": "updateDialog",
+  "desc": "(ILjava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main",
+  "short": "Main.updateWidgets",
+  "name": "updateWidgets",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Main$Currency",
+  "short": "Main$Currency.<init>",
+  "name": "<init>",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;II)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Parser",
+  "short": "Parser.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Parser",
+  "short": "Parser.getDate",
+  "name": "getDate",
+  "desc": "()Ljava/lang/String;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Parser",
+  "short": "Parser.getMap",
+  "name": "getMap",
+  "desc": "()Ljava/util/Map;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Parser",
+  "short": "Parser.startParser",
+  "name": "startParser",
+  "desc": "(Landroid/content/Context;I)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Parser",
+  "short": "Parser.startParser",
+  "name": "startParser",
+  "desc": "(Ljava/lang/String;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Parser$Handler",
+  "short": "Parser$Handler.<init>",
+  "name": "<init>",
+  "desc": "(Lorg/billthefarmer/currency/Parser;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Parser$Handler",
+  "short": "Parser$Handler.startElement",
+  "name": "startElement",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsActivity",
+  "short": "SettingsActivity.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsActivity",
+  "short": "SettingsActivity.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsActivity",
+  "short": "SettingsActivity.onOptionsItemSelected",
+  "name": "onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsFragment",
+  "short": "SettingsFragment.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsFragment",
+  "short": "SettingsFragment.onCreate",
+  "name": "onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsFragment",
+  "short": "SettingsFragment.onPause",
+  "name": "onPause",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsFragment",
+  "short": "SettingsFragment.onPreferenceTreeClick",
+  "name": "onPreferenceTreeClick",
+  "desc": "(Landroid/preference/PreferenceScreen;Landroid/preference/Preference;)Z",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsFragment",
+  "short": "SettingsFragment.onResume",
+  "name": "onResume",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/SettingsFragment",
+  "short": "SettingsFragment.onSharedPreferenceChanged",
+  "name": "onSharedPreferenceChanged",
+  "desc": "(Landroid/content/SharedPreferences;Ljava/lang/String;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.<init>",
+  "name": "<init>",
+  "desc": "()V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.getInstance",
+  "name": "getInstance",
+  "desc": "(Lorg/billthefarmer/currency/Singleton$OnResultListener;)Lorg/billthefarmer/currency/Singleton;",
+  "flags": [
+   "static"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.getList",
+  "name": "getList",
+  "desc": "()Ljava/util/List;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.getMap",
+  "name": "getMap",
+  "desc": "()Ljava/util/Map;",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.isParsing",
+  "name": "isParsing",
+  "desc": "()Z",
+  "flags": [
+   "static"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.lambda$startParse$0",
+  "name": "lambda$startParse$0",
+  "desc": "(Lorg/billthefarmer/currency/ChartParser;)V",
+  "flags": [
+   "static",
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.lambda$startParse$1",
+  "name": "lambda$startParse$1",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": [
+   "static",
+   "synthetic"
+  ]
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.setList",
+  "name": "setList",
+  "desc": "(Ljava/util/List;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.setMap",
+  "name": "setMap",
+  "desc": "(Ljava/util/Map;)V",
+  "flags": []
+ },
+ {
+  "class": "org/billthefarmer/currency/Singleton",
+  "short": "Singleton.startParse",
+  "name": "startParse",
+  "desc": "(Ljava/lang/String;)V",
+  "flags": [
+   "static"
+  ]
+ }
+]

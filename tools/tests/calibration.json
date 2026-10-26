@@ -1,0 +1,32 @@
+{
+ "Currency": {
+  "methods": 145,
+  "dead_vs_alive": 97.2,
+  "exact": 93.8,
+  "contradictions": 0
+ },
+ "Diary": {
+  "methods": 286,
+  "dead_vs_alive": 96.5,
+  "exact": 95.5,
+  "contradictions": 0
+ },
+ "hash-checker": {
+  "methods": 529,
+  "dead_vs_alive": 98.5,
+  "exact": 71.1,
+  "contradictions": 0
+ },
+ "openlauncher": {
+  "methods": 900,
+  "dead_vs_alive": 92.9,
+  "exact": 76.9,
+  "contradictions": 0
+ },
+ "Omni-Notes": {
+  "methods": 1456,
+  "dead_vs_alive": 93.8,
+  "exact": 63.1,
+  "contradictions": 0
+ }
+}

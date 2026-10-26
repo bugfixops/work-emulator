@@ -1,0 +1,2415 @@
+{
+ "calls": [
+  {
+   "src": "CurrencyWidgetProvider.onUpdate",
+   "dst": "Main.currencyIndex",
+   "file": "CurrencyWidgetProvider.java",
+   "line": 213,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "HelpActivity.onCreate",
+   "dst": "HelpActivity.read",
+   "file": "HelpActivity.java",
+   "line": 89,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "CurrencyWidgetUpdate.onCreate",
+   "dst": "Data.getInstance",
+   "file": "CurrencyWidgetUpdate.java",
+   "line": 74,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "CurrencyWidgetUpdate.onStartCommand",
+   "dst": "CurrencyWidgetUpdate.startUpdate",
+   "file": "CurrencyWidgetUpdate.java",
+   "line": 91,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "CurrencyWidgetUpdate.startUpdate",
+   "dst": "Data.startParse",
+   "file": "CurrencyWidgetUpdate.java",
+   "line": 101,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "CurrencyWidgetUpdate.onDestroy",
+   "dst": "Data.getInstance",
+   "file": "CurrencyWidgetUpdate.java",
+   "line": 145,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Data.getInstance",
+   "dst": "Data.<init>",
+   "file": "Data.java",
+   "line": 57,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$2",
+   "dst": "Parser.startParser(String)",
+   "file": "Data.java",
+   "line": 107,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$2",
+   "dst": "Parser.<init>",
+   "file": "Data.java",
+   "line": 104,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$1",
+   "dst": "CurrencyWidgetUpdate.onDataResult",
+   "file": "Data.java",
+   "line": 121,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$1",
+   "dst": "Main.onDataResult",
+   "file": "Data.java",
+   "line": 121,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$1",
+   "dst": "Parser.getMap",
+   "file": "Data.java",
+   "line": 121,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$1",
+   "dst": "CurrencyWidgetUpdate.onDateResult",
+   "file": "Data.java",
+   "line": 120,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$1",
+   "dst": "Main.onDateResult",
+   "file": "Data.java",
+   "line": 120,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$1",
+   "dst": "Parser.getDate",
+   "file": "Data.java",
+   "line": 120,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$0",
+   "dst": "CurrencyWidgetUpdate.onDateResult",
+   "file": "Data.java",
+   "line": 111,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Data.lambda$startParse$0",
+   "dst": "Main.onDateResult",
+   "file": "Data.java",
+   "line": 111,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Singleton.getInstance",
+   "dst": "Singleton.<init>",
+   "file": "Singleton.java",
+   "line": 58,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Singleton.lambda$startParse$1",
+   "dst": "ChartParser.startParser(String)",
+   "file": "Singleton.java",
+   "line": 114,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Singleton.lambda$startParse$1",
+   "dst": "ChartParser.<init>",
+   "file": "Singleton.java",
+   "line": 111,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Singleton.lambda$startParse$0",
+   "dst": "ChartActivity.onDataResult",
+   "file": "Singleton.java",
+   "line": 126,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Singleton.lambda$startParse$0",
+   "dst": "ChartParser.getMap",
+   "file": "Singleton.java",
+   "line": 126,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Singleton.lambda$startParse$0",
+   "dst": "ChartActivity.onDateResult",
+   "file": "Singleton.java",
+   "line": 125,
+   "dispatch": "cha",
+   "via": []
+  },
+  {
+   "src": "Singleton.lambda$startParse$0",
+   "dst": "ChartParser.getDate",
+   "file": "Singleton.java",
+   "line": 125,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "SettingsActivity.onCreate",
+   "dst": "SettingsFragment.<init>",
+   "file": "SettingsActivity.java",
+   "line": 79,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onCreate",
+   "dst": "Singleton.isParsing",
+   "file": "ChartActivity.java",
+   "line": 266,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onCreate",
+   "dst": "ChartActivity$DateAxisValueFormatter.<init>",
+   "file": "ChartActivity.java",
+   "line": 235,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onCreate",
+   "dst": "Singleton.getList",
+   "file": "ChartActivity.java",
+   "line": 176,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onCreate",
+   "dst": "Singleton.getInstance",
+   "file": "ChartActivity.java",
+   "line": 166,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onResume",
+   "dst": "Singleton.startParse",
+   "file": "ChartActivity.java",
+   "line": 428,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onResume",
+   "dst": "ChartActivity.showToast(int,Object[])",
+   "file": "ChartActivity.java",
+   "line": 422,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onResume",
+   "dst": "Singleton.getMap",
+   "file": "ChartActivity.java",
+   "line": 302,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onResume",
+   "dst": "Singleton.getInstance",
+   "file": "ChartActivity.java",
+   "line": 298,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onPause",
+   "dst": "Singleton.getInstance",
+   "file": "ChartActivity.java",
+   "line": 449,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onPause",
+   "dst": "Singleton.setMap",
+   "file": "ChartActivity.java",
+   "line": 445,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onPause",
+   "dst": "Singleton.setList",
+   "file": "ChartActivity.java",
+   "line": 444,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onMaxClick",
+   "file": "ChartActivity.java",
+   "line": 563,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onYearsClick",
+   "file": "ChartActivity.java",
+   "line": 559,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onYearClick",
+   "file": "ChartActivity.java",
+   "line": 555,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onQuarterClick",
+   "file": "ChartActivity.java",
+   "line": 551,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onMonthClick",
+   "file": "ChartActivity.java",
+   "line": 547,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onWeekClick",
+   "file": "ChartActivity.java",
+   "line": 543,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onRefreshClick",
+   "file": "ChartActivity.java",
+   "line": 539,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onNewClick",
+   "file": "ChartActivity.java",
+   "line": 531,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onOptionsItemSelected",
+   "dst": "ChartActivity.onInvertClick",
+   "file": "ChartActivity.java",
+   "line": 527,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onRefreshClick",
+   "dst": "Singleton.startParse",
+   "file": "ChartActivity.java",
+   "line": 718,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onRefreshClick",
+   "dst": "ChartActivity.showToast(int,Object[])",
+   "file": "ChartActivity.java",
+   "line": 705,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onWeekClick",
+   "dst": "ChartActivity.updateRange",
+   "file": "ChartActivity.java",
+   "line": 728,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onMonthClick",
+   "dst": "ChartActivity.updateRange",
+   "file": "ChartActivity.java",
+   "line": 738,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onQuarterClick",
+   "dst": "ChartActivity.updateRange",
+   "file": "ChartActivity.java",
+   "line": 748,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onYearClick",
+   "dst": "ChartActivity.updateRange",
+   "file": "ChartActivity.java",
+   "line": 758,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onYearsClick",
+   "dst": "ChartActivity.updateRange",
+   "file": "ChartActivity.java",
+   "line": 768,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onMaxClick",
+   "dst": "ChartActivity.updateRange",
+   "file": "ChartActivity.java",
+   "line": 778,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.onDataResult",
+   "dst": "ChartActivity.showToast(int,Object[])",
+   "file": "ChartActivity.java",
+   "line": 1013,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.showToast(int,Object[])",
+   "dst": "ChartActivity.showToast(String,Object[])",
+   "file": "ChartActivity.java",
+   "line": 1027,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.showToast(String,Object[])",
+   "dst": "ChartActivity.showToast(String)",
+   "file": "ChartActivity.java",
+   "line": 1034,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartActivity.lambda$onCreate$0",
+   "dst": "ChartActivity.onInvertClick",
+   "file": "ChartActivity.java",
+   "line": 262,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "CurrencyWidgetConfigure.onCreate",
+   "dst": "ChoiceAdapter.<init>",
+   "file": "CurrencyWidgetConfigure.java",
+   "line": 161,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "CurrencyWidgetConfigure.onCreate",
+   "dst": "Main.currencyIndex",
+   "file": "CurrencyWidgetConfigure.java",
+   "line": 156,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartParser.startParser(String)",
+   "dst": "ChartParser$Handler.<init>",
+   "file": "ChartParser.java",
+   "line": 70,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChartParser.startParser(Context,int)",
+   "dst": "ChartParser$Handler.<init>",
+   "file": "ChartParser.java",
+   "line": 94,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onCreate",
+   "dst": "CurrencyAdapter.<init>",
+   "file": "Main.java",
+   "line": 358,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onCreate",
+   "dst": "Data.getList",
+   "file": "Main.java",
+   "line": 344,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onCreate",
+   "dst": "Data.getInstance",
+   "file": "Main.java",
+   "line": 282,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Data.startParse",
+   "file": "Main.java",
+   "line": 695,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Data.getMap",
+   "file": "Main.java",
+   "line": 650,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Main.currencyIndex",
+   "file": "Main.java",
+   "line": 633,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Parser.getMap",
+   "file": "Main.java",
+   "line": 529,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Parser.getDate",
+   "file": "Main.java",
+   "line": 505,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Parser.startParser(Context,int)",
+   "file": "Main.java",
+   "line": 497,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Parser.<init>",
+   "file": "Main.java",
+   "line": 494,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onResume",
+   "dst": "Data.getInstance",
+   "file": "Main.java",
+   "line": 454,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onPause",
+   "dst": "Main.updateWidgets",
+   "file": "Main.java",
+   "line": 742,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onPause",
+   "dst": "Data.getInstance",
+   "file": "Main.java",
+   "line": 739,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onPause",
+   "dst": "Data.setMap",
+   "file": "Main.java",
+   "line": 735,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onPause",
+   "dst": "Data.setList",
+   "file": "Main.java",
+   "line": 734,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onCopyClick",
+   "file": "Main.java",
+   "line": 810,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onChartClick",
+   "file": "Main.java",
+   "line": 806,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onRemoveClick",
+   "file": "Main.java",
+   "line": 802,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onClearClick",
+   "file": "Main.java",
+   "line": 798,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onSettingsClick",
+   "file": "Main.java",
+   "line": 794,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onHelpClick",
+   "file": "Main.java",
+   "line": 790,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onUpdateClick",
+   "file": "Main.java",
+   "line": 786,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onRefreshClick",
+   "file": "Main.java",
+   "line": 782,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onOptionsItemSelected",
+   "dst": "Main.onAddClick",
+   "file": "Main.java",
+   "line": 778,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onMenuItemClick",
+   "dst": "Main.onSettingsClick",
+   "file": "Main.java",
+   "line": 830,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onMenuItemClick",
+   "dst": "Main.onHelpClick",
+   "file": "Main.java",
+   "line": 826,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onChartClick",
+   "dst": "Main.currencyIndex",
+   "file": "Main.java",
+   "line": 965,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onRefreshClick",
+   "dst": "Data.startParse",
+   "file": "Main.java",
+   "line": 1028,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onRefreshClick",
+   "dst": "Data.getInstance",
+   "file": "Main.java",
+   "line": 1024,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onUpdateClick",
+   "dst": "Main.updateDialog",
+   "file": "Main.java",
+   "line": 1045,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.onItemClick",
+   "dst": "Main.currencyIndex",
+   "file": "Main.java",
+   "line": 1335,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.lambda$onUpdateClick$1",
+   "dst": "Main.afterTextChanged",
+   "file": "Main.java",
+   "line": 1087,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Main.<clinit>",
+   "dst": "Main$Currency.<init>",
+   "file": "Main.java",
+   "line": 115,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "ChoiceDialog.onCreate",
+   "dst": "ChoiceAdapter.<init>",
+   "file": "ChoiceDialog.java",
+   "line": 125,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Parser.startParser(String)",
+   "dst": "Parser$Handler.<init>",
+   "file": "Parser.java",
+   "line": 67,
+   "dispatch": "exact",
+   "via": []
+  },
+  {
+   "src": "Parser.startParser(Context,int)",
+   "dst": "Parser$Handler.<init>",
+   "file": "Parser.java",
+   "line": 93,
+   "dispatch": "exact",
+   "via": []
+  }
+ ],
+ "lambdas": [
+  {
+   "src": "CurrencyWidgetUpdate.startUpdate",
+   "dst": "CurrencyWidgetUpdate.lambda$startUpdate$0",
+   "file": "CurrencyWidgetUpdate.java",
+   "line": 125
+  },
+  {
+   "src": "Data.startParse",
+   "dst": "Data.lambda$startParse$2",
+   "file": "Data.java",
+   "line": 101
+  },
+  {
+   "src": "Data.lambda$startParse$2",
+   "dst": "Data.lambda$startParse$0",
+   "file": "Data.java",
+   "line": 111
+  },
+  {
+   "src": "Data.lambda$startParse$2",
+   "dst": "Data.lambda$startParse$1",
+   "file": "Data.java",
+   "line": 118
+  },
+  {
+   "src": "Singleton.startParse",
+   "dst": "Singleton.lambda$startParse$1",
+   "file": "Singleton.java",
+   "line": 108
+  },
+  {
+   "src": "Singleton.lambda$startParse$1",
+   "dst": "Singleton.lambda$startParse$0",
+   "file": "Singleton.java",
+   "line": 123
+  },
+  {
+   "src": "ChartActivity.onCreate",
+   "dst": "ChartActivity.lambda$onCreate$0",
+   "file": "ChartActivity.java",
+   "line": 259
+  },
+  {
+   "src": "CurrencyWidgetConfigure.onCreate",
+   "dst": "CurrencyWidgetConfigure.lambda$onCreate$0",
+   "file": "CurrencyWidgetConfigure.java",
+   "line": 96
+  },
+  {
+   "src": "CurrencyWidgetConfigure.onCreate",
+   "dst": "CurrencyWidgetConfigure.lambda$onCreate$1",
+   "file": "CurrencyWidgetConfigure.java",
+   "line": 121
+  },
+  {
+   "src": "Main.onCreate",
+   "dst": "Main.lambda$onCreate$0",
+   "file": "Main.java",
+   "line": 289
+  },
+  {
+   "src": "Main.onUpdateClick",
+   "dst": "Main.lambda$onUpdateClick$1",
+   "file": "Main.java",
+   "line": 1045
+  }
+ ],
+ "framework_calls": {
+  "CurrencyWidgetProvider.<init>": [
+   "AppWidgetProvider.<init>"
+  ],
+  "CurrencyWidgetProvider.onReceive": [
+   "AppWidgetProvider.onReceive",
+   "Intent.getBooleanExtra",
+   "Log.d",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString"
+  ],
+  "CurrencyWidgetProvider.onUpdate": [
+   "AppWidgetManager.updateAppWidget",
+   "ArrayList.<init>",
+   "Arrays.asList",
+   "ConnectivityManager.getActiveNetworkInfo",
+   "Context.getPackageName",
+   "Context.getString",
+   "Context.getSystemService",
+   "Context.startService",
+   "Double.doubleValue",
+   "Double.parseDouble",
+   "Double.valueOf",
+   "HashMap.<init>",
+   "Integer.parseInt",
+   "Intent.<init>",
+   "Intent.putExtra",
+   "Intent.setData",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "JSONArray.<init>",
+   "JSONArray.getString",
+   "JSONArray.isNull",
+   "JSONObject.<init>",
+   "JSONObject.getDouble",
+   "JSONObject.keys",
+   "List.add",
+   "List.addAll",
+   "List.get",
+   "List.iterator",
+   "List.size",
+   "Log.d",
+   "Map.get",
+   "Map.put",
+   "NetworkInfo.getType",
+   "NetworkInfo.isConnected",
+   "NetworkInfo.isRoaming",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "PendingIntent.getActivity",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "RemoteViews.<init>",
+   "RemoteViews.setImageViewResource",
+   "RemoteViews.setOnClickPendingIntent",
+   "RemoteViews.setTextViewText",
+   "RemoteViews.setViewVisibility",
+   "SharedPreferences.getBoolean",
+   "SharedPreferences.getInt",
+   "SharedPreferences.getString",
+   "String.valueOf",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString",
+   "Uri.parse"
+  ],
+  "CurrencyWidgetProvider.onDeleted": [
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.remove",
+   "SharedPreferences.edit",
+   "String.valueOf"
+  ],
+  "SettingsFragment.<init>": [
+   "PreferenceFragment.<init>"
+  ],
+  "SettingsFragment.onCreate": [
+   "CharSequence.toString",
+   "ListPreference.getEntry",
+   "ListPreference.setSummary",
+   "Preference.getSummary",
+   "Preference.setSummary",
+   "PreferenceFragment.onCreate",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "String.format"
+  ],
+  "SettingsFragment.onResume": [
+   "PreferenceFragment.onResume",
+   "PreferenceScreen.getSharedPreferences",
+   "SharedPreferences.registerOnSharedPreferenceChangeListener"
+  ],
+  "SettingsFragment.onPause": [
+   "PreferenceFragment.onPause",
+   "PreferenceScreen.getSharedPreferences",
+   "SharedPreferences.unregisterOnSharedPreferenceChangeListener"
+  ],
+  "SettingsFragment.onPreferenceTreeClick": [
+   "ActionBar.setDisplayHomeAsUpEnabled",
+   "Dialog.getActionBar",
+   "PreferenceFragment.onPreferenceTreeClick",
+   "PreferenceScreen.getDialog"
+  ],
+  "SettingsFragment.onSharedPreferenceChanged": [
+   "Activity.recreate",
+   "ListPreference.getEntry",
+   "ListPreference.setSummary",
+   "String.equals"
+  ],
+  "HelpActivity.<init>": [
+   "Activity.<init>"
+  ],
+  "HelpActivity.onCreate": [
+   "ActionBar.setDisplayHomeAsUpEnabled",
+   "Activity.onCreate",
+   "CharSequence.toString",
+   "Html.fromHtml",
+   "Integer.parseInt",
+   "LinkMovementMethod.getInstance",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getConfiguration",
+   "SharedPreferences.getString",
+   "TextView.setMovementMethod",
+   "TextView.setText"
+  ],
+  "HelpActivity.onOptionsItemSelected": [
+   "MenuItem.getItemId"
+  ],
+  "HelpActivity.read": [
+   "BufferedReader.<init>",
+   "BufferedReader.close",
+   "BufferedReader.readLine",
+   "Context.getResources",
+   "InputStreamReader.<init>",
+   "Resources.openRawResource",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "System.getProperty",
+   "Throwable.addSuppressed"
+  ],
+  "CurrencyWidgetUpdate.<init>": [
+   "Service.<init>"
+  ],
+  "CurrencyWidgetUpdate.onCreate": [
+   "Handler.<init>",
+   "Log.d",
+   "Looper.getMainLooper",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString"
+  ],
+  "CurrencyWidgetUpdate.onStartCommand": [
+   "Log.d",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString"
+  ],
+  "CurrencyWidgetUpdate.startUpdate": [
+   "AppWidgetManager.getAppWidgetIds",
+   "AppWidgetManager.getInstance",
+   "AppWidgetManager.partiallyUpdateAppWidget",
+   "ComponentName.<init>",
+   "Handler.postDelayed",
+   "Log.d",
+   "RemoteViews.<init>",
+   "RemoteViews.setViewVisibility"
+  ],
+  "CurrencyWidgetUpdate.onDateResult": [
+   "DateFormat.format",
+   "DateFormat.getDateInstance",
+   "Locale.getDefault",
+   "Log.d",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.putString",
+   "SharedPreferences.edit",
+   "SimpleDateFormat.<init>",
+   "SimpleDateFormat.parse",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString"
+  ],
+  "CurrencyWidgetUpdate.onDataResult": [
+   "AppWidgetManager.getAppWidgetIds",
+   "AppWidgetManager.getInstance",
+   "ArrayList.<init>",
+   "Arrays.asList",
+   "ComponentName.<init>",
+   "Double.doubleValue",
+   "Double.parseDouble",
+   "Double.valueOf",
+   "Integer.parseInt",
+   "Intent.<init>",
+   "Intent.putExtra",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "JSONArray.<init>",
+   "JSONArray.getString",
+   "JSONArray.isNull",
+   "JSONArray.toString",
+   "JSONObject.<init>",
+   "JSONObject.toString",
+   "List.add",
+   "List.addAll",
+   "List.iterator",
+   "Log.d",
+   "Map.containsKey",
+   "Map.get",
+   "Map.isEmpty",
+   "Map.put",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.putString",
+   "SharedPreferences.edit",
+   "SharedPreferences.getInt",
+   "SharedPreferences.getString",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString"
+  ],
+  "CurrencyWidgetUpdate.lambda$startUpdate$0": [
+   "AppWidgetManager.partiallyUpdateAppWidget",
+   "RemoteViews.setViewVisibility"
+  ],
+  "Data.<init>": [
+   "Object.<init>"
+  ],
+  "Data.getInstance": [
+   "Executors.newSingleThreadExecutor",
+   "Handler.<init>",
+   "Looper.getMainLooper"
+  ],
+  "Data.startParse": [
+   "ExecutorService.execute"
+  ],
+  "Data.lambda$startParse$2": [
+   "Handler.post"
+  ],
+  "Singleton.<init>": [
+   "Object.<init>"
+  ],
+  "Singleton.getInstance": [
+   "Executors.newSingleThreadExecutor",
+   "Handler.<init>",
+   "Looper.getMainLooper"
+  ],
+  "Singleton.startParse": [
+   "ExecutorService.execute"
+  ],
+  "Singleton.lambda$startParse$1": [
+   "Handler.post"
+  ],
+  "Main$Currency.<init>": [
+   "Object.<init>"
+  ],
+  "Parser$Handler.<init>": [
+   "DefaultHandler.<init>"
+  ],
+  "Parser$Handler.startElement": [
+   "Attributes.getLength",
+   "Attributes.getLocalName",
+   "Attributes.getValue",
+   "Double.parseDouble",
+   "Double.valueOf",
+   "Map.put",
+   "String.equals",
+   "String.hashCode"
+  ],
+  "SettingsActivity.<init>": [
+   "Activity.<init>"
+  ],
+  "SettingsActivity.onCreate": [
+   "ActionBar.setDisplayHomeAsUpEnabled",
+   "ActionBar.setTitle",
+   "Activity.onCreate",
+   "FragmentManager.beginTransaction",
+   "FragmentTransaction.commit",
+   "FragmentTransaction.replace",
+   "Integer.parseInt",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getConfiguration",
+   "SharedPreferences.getString"
+  ],
+  "SettingsActivity.onOptionsItemSelected": [
+   "MenuItem.getItemId"
+  ],
+  "ChartActivity$DateAxisValueFormatter.<init>": [
+   "DateFormat.getDateInstance",
+   "ValueFormatter.<init>"
+  ],
+  "ChartActivity$DateAxisValueFormatter.getFormattedValue": [
+   "Date.<init>",
+   "DateFormat.format",
+   "Math.round"
+  ],
+  "ChartActivity.<init>": [
+   "Activity.<init>"
+  ],
+  "ChartActivity.onCreate": [
+   "ActionBar.getCustomView",
+   "ActionBar.setCustomView",
+   "ActionBar.setDisplayHomeAsUpEnabled",
+   "ActionBar.setDisplayShowCustomEnabled",
+   "Activity.onCreate",
+   "Bundle.getBoolean",
+   "Bundle.getInt",
+   "Description.setEnabled",
+   "Integer.intValue",
+   "Integer.parseInt",
+   "Intent.getIntegerArrayListExtra",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "Legend.setEnabled",
+   "LineChart.getAxisLeft",
+   "LineChart.getAxisRight",
+   "LineChart.getDescription",
+   "LineChart.getLegend",
+   "LineChart.getXAxis",
+   "LineChart.setAutoScaleMinMaxEnabled",
+   "LineChart.setKeepPositionOnRotation",
+   "LineChart.setNoDataText",
+   "LineChart.setNoDataTextColor",
+   "List.iterator",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getColor",
+   "Resources.getConfiguration",
+   "SharedPreferences.getString",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString",
+   "TextView.setOnClickListener",
+   "TextView.setText",
+   "XAxis.setGranularity",
+   "XAxis.setTextColor",
+   "XAxis.setValueFormatter",
+   "YAxis.setTextColor"
+  ],
+  "ChartActivity.onResume": [
+   "Activity.onResume",
+   "ArrayList.<init>",
+   "ConnectivityManager.getActiveNetworkInfo",
+   "Date.<init>",
+   "Date.getTime",
+   "Double.doubleValue",
+   "Entry.<init>",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "LineChart.fitScreen",
+   "LineChart.invalidate",
+   "LineChart.moveViewToX",
+   "LineChart.setData",
+   "LineChart.setVisibleXRangeMaximum",
+   "LineData.<init>",
+   "LineDataSet.<init>",
+   "LineDataSet.setColor",
+   "LineDataSet.setDrawCircles",
+   "LineDataSet.setDrawFilled",
+   "LineDataSet.setDrawValues",
+   "LineDataSet.setFillColor",
+   "List.add",
+   "Locale.getDefault",
+   "Map.get",
+   "Map.keySet",
+   "NetworkInfo.getType",
+   "NetworkInfo.isConnected",
+   "NetworkInfo.isRoaming",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getColor",
+   "Set.iterator",
+   "SharedPreferences.getBoolean",
+   "SimpleDateFormat.<init>",
+   "SimpleDateFormat.parse"
+  ],
+  "ChartActivity.onPause": [
+   "Activity.onPause",
+   "ArrayList.<init>",
+   "Integer.valueOf",
+   "List.add"
+  ],
+  "ChartActivity.onSaveInstanceState": [
+   "Activity.onSaveInstanceState",
+   "Bundle.putBoolean",
+   "Bundle.putInt"
+  ],
+  "ChartActivity.onCreateOptionsMenu": [
+   "MenuInflater.inflate"
+  ],
+  "ChartActivity.onPrepareOptionsMenu": [
+   "Menu.findItem",
+   "MenuItem.setChecked",
+   "MenuItem.setEnabled"
+  ],
+  "ChartActivity.onOptionsItemSelected": [
+   "MenuItem.getItemId"
+  ],
+  "ChartActivity.onInvertClick": [
+   "Date.<init>",
+   "Date.getTime",
+   "Double.doubleValue",
+   "Entry.<init>",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "LineChart.fitScreen",
+   "LineChart.invalidate",
+   "LineChart.moveViewToX",
+   "LineChart.notifyDataSetChanged",
+   "LineChart.setVisibleXRangeMaximum",
+   "LineData.notifyDataChanged",
+   "LineDataSet.setValues",
+   "List.add",
+   "List.clear",
+   "Locale.getDefault",
+   "Map.get",
+   "Map.keySet",
+   "Set.iterator",
+   "SimpleDateFormat.<init>",
+   "SimpleDateFormat.parse",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString",
+   "TextView.setText"
+  ],
+  "ChartActivity.onNewClick": [
+   "Intent.<init>"
+  ],
+  "ChartActivity.onRefreshClick": [
+   "ConnectivityManager.getActiveNetworkInfo",
+   "NetworkInfo.getType",
+   "NetworkInfo.isConnected",
+   "NetworkInfo.isRoaming",
+   "TextView.setText"
+  ],
+  "ChartActivity.onWeekClick": [
+   "MenuItem.setChecked"
+  ],
+  "ChartActivity.onMonthClick": [
+   "MenuItem.setChecked"
+  ],
+  "ChartActivity.onQuarterClick": [
+   "MenuItem.setChecked"
+  ],
+  "ChartActivity.onYearClick": [
+   "MenuItem.setChecked"
+  ],
+  "ChartActivity.onYearsClick": [
+   "MenuItem.setChecked"
+  ],
+  "ChartActivity.onMaxClick": [
+   "MenuItem.setChecked"
+  ],
+  "ChartActivity.updateRange": [
+   "Date.<init>",
+   "Date.getTime",
+   "LineChart.fitScreen",
+   "LineChart.moveViewToX",
+   "LineChart.setVisibleXRangeMaximum"
+  ],
+  "ChartActivity.onActivityResult": [
+   "Date.<init>",
+   "Date.getTime",
+   "Double.doubleValue",
+   "Entry.<init>",
+   "Integer.intValue",
+   "Intent.getIntegerArrayListExtra",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "LineChart.fitScreen",
+   "LineChart.invalidate",
+   "LineChart.moveViewToX",
+   "LineChart.notifyDataSetChanged",
+   "LineChart.setVisibleXRangeMaximum",
+   "LineData.notifyDataChanged",
+   "LineDataSet.setValues",
+   "List.add",
+   "List.clear",
+   "List.iterator",
+   "Locale.getDefault",
+   "Map.get",
+   "Map.keySet",
+   "Set.iterator",
+   "SimpleDateFormat.<init>",
+   "SimpleDateFormat.parse",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString",
+   "TextView.setText"
+  ],
+  "ChartActivity.onDataResult": [
+   "ArrayList.<init>",
+   "Date.<init>",
+   "Date.getTime",
+   "Double.doubleValue",
+   "Entry.<init>",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "LineChart.fitScreen",
+   "LineChart.invalidate",
+   "LineChart.moveViewToX",
+   "LineChart.setData",
+   "LineChart.setVisibleXRangeMaximum",
+   "LineData.<init>",
+   "LineDataSet.<init>",
+   "LineDataSet.setColor",
+   "LineDataSet.setDrawCircles",
+   "LineDataSet.setDrawFilled",
+   "LineDataSet.setDrawValues",
+   "LineDataSet.setFillColor",
+   "List.add",
+   "Locale.getDefault",
+   "Map.get",
+   "Map.isEmpty",
+   "Map.keySet",
+   "Resources.getColor",
+   "Set.iterator",
+   "SimpleDateFormat.<init>",
+   "SimpleDateFormat.parse",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString",
+   "TextView.setText"
+  ],
+  "ChartActivity.showToast(String,Object[])": [
+   "String.format"
+  ],
+  "ChartActivity.showToast(String)": [
+   "Toast.getView",
+   "Toast.makeText",
+   "Toast.setGravity",
+   "Toast.show",
+   "View.setBackgroundResource"
+  ],
+  "CurrencyWidgetConfigure.<init>": [
+   "Activity.<init>"
+  ],
+  "CurrencyWidgetConfigure.onCreate": [
+   "Activity.onCreate",
+   "ArrayList.<init>",
+   "Arrays.asList",
+   "Button.setOnClickListener",
+   "Integer.parseInt",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "JSONArray.<init>",
+   "JSONArray.getString",
+   "JSONArray.isNull",
+   "List.add",
+   "List.addAll",
+   "List.iterator",
+   "ListView.setAdapter",
+   "ListView.setOnItemClickListener",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getConfiguration",
+   "SharedPreferences.getString"
+  ],
+  "CurrencyWidgetConfigure.lambda$onCreate$0": [
+   "Intent.<init>",
+   "Intent.getIntExtra",
+   "Intent.putExtra",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.putInt",
+   "SharedPreferences.edit",
+   "String.valueOf"
+  ],
+  "CurrencyAdapter.<init>": [
+   "BaseAdapter.<init>",
+   "LayoutInflater.from"
+  ],
+  "CurrencyAdapter.getCount": [
+   "List.size"
+  ],
+  "CurrencyAdapter.getView": [
+   "ImageView.setImageResource",
+   "Integer.intValue",
+   "Integer.valueOf",
+   "LayoutInflater.inflate",
+   "List.contains",
+   "List.get",
+   "TextView.setText",
+   "View.findViewById",
+   "View.setBackgroundResource"
+  ],
+  "ChartParser.<init>": [
+   "Object.<init>"
+  ],
+  "ChartParser.startParser(String)": [
+   "LinkedHashMap.<init>",
+   "Map.clear",
+   "URL.<init>",
+   "URL.openStream",
+   "Xml.parse"
+  ],
+  "ChartParser.startParser(Context,int)": [
+   "Context.getResources",
+   "LinkedHashMap.<init>",
+   "Map.clear",
+   "Resources.openRawResource",
+   "Xml.parse"
+  ],
+  "AboutPreference.<init>": [
+   "DialogPreference.<init>"
+  ],
+  "AboutPreference.onBindDialogView": [
+   "CharSequence.toString",
+   "DateFormat.format",
+   "DateFormat.getDateTimeInstance",
+   "DialogPreference.onBindDialogView",
+   "LinkMovementMethod.getInstance",
+   "Long.valueOf",
+   "Matcher.end",
+   "Matcher.find",
+   "Matcher.start",
+   "Pattern.compile",
+   "Pattern.matcher",
+   "SpannableStringBuilder.<init>",
+   "SpannableStringBuilder.replace",
+   "String.format",
+   "TextView.getText",
+   "TextView.setMovementMethod",
+   "TextView.setText",
+   "View.findViewById"
+  ],
+  "ChartParser$Handler.<init>": [
+   "DefaultHandler.<init>"
+  ],
+  "ChartParser$Handler.startElement": [
+   "Attributes.getLength",
+   "Attributes.getLocalName",
+   "Attributes.getValue",
+   "Double.parseDouble",
+   "Double.valueOf",
+   "HashMap.<init>",
+   "Map.put",
+   "String.compareTo",
+   "String.equals",
+   "String.hashCode"
+  ],
+  "ChoiceAdapter.<init>": [
+   "BaseAdapter.<init>",
+   "LayoutInflater.from"
+  ],
+  "ChoiceAdapter.getCount": [
+   "List.size"
+  ],
+  "ChoiceAdapter.getView": [
+   "ImageView.setImageResource",
+   "Integer.valueOf",
+   "LayoutInflater.inflate",
+   "List.contains",
+   "List.get",
+   "TextView.setText",
+   "View.findViewById",
+   "View.setBackgroundResource"
+  ],
+  "Main.<init>": [
+   "Activity.<init>"
+  ],
+  "Main.currencyIndex": [
+   "String.equals"
+  ],
+  "Main.onCreate": [
+   "Activity.onCreate",
+   "ArrayList.<init>",
+   "EditText.addTextChangedListener",
+   "EditText.setOnClickListener",
+   "EditText.setOnEditorActionListener",
+   "ImageView.setOnClickListener",
+   "Integer.parseInt",
+   "List.isEmpty",
+   "ListView.setAdapter",
+   "ListView.setOnItemClickListener",
+   "ListView.setOnItemLongClickListener",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getConfiguration",
+   "Resources.getIdentifier",
+   "SharedPreferences.getString",
+   "TextView.setOnClickListener",
+   "Toolbar.setNavigationIcon",
+   "Toolbar.setNavigationOnClickListener"
+  ],
+  "Main.onResume": [
+   "Activity.onResume",
+   "Arrays.asList",
+   "ConnectivityManager.getActiveNetworkInfo",
+   "DateFormat.format",
+   "DateFormat.getDateInstance",
+   "Double.doubleValue",
+   "Double.parseDouble",
+   "Double.valueOf",
+   "EditText.setText",
+   "HashMap.<init>",
+   "ImageView.setImageResource",
+   "Integer.parseInt",
+   "Integer.valueOf",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "JSONArray.<init>",
+   "JSONArray.getString",
+   "JSONArray.isNull",
+   "JSONObject.<init>",
+   "JSONObject.getDouble",
+   "JSONObject.keys",
+   "List.add",
+   "List.addAll",
+   "List.clear",
+   "List.iterator",
+   "Locale.getDefault",
+   "Map.containsKey",
+   "Map.get",
+   "Map.put",
+   "NetworkInfo.getType",
+   "NetworkInfo.isConnected",
+   "NetworkInfo.isRoaming",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getString",
+   "SharedPreferences.getBoolean",
+   "SharedPreferences.getInt",
+   "SharedPreferences.getString",
+   "SimpleDateFormat.<init>",
+   "SimpleDateFormat.parse",
+   "String.format",
+   "TextView.setText"
+  ],
+  "Main.onPause": [
+   "Activity.onPause",
+   "Double.toString",
+   "Integer.toString",
+   "JSONArray.<init>",
+   "JSONArray.toString",
+   "JSONObject.<init>",
+   "JSONObject.toString",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.putInt",
+   "SharedPreferences$Editor.putString",
+   "SharedPreferences.edit"
+  ],
+  "Main.onCreateOptionsMenu": [
+   "MenuInflater.inflate"
+  ],
+  "Main.onOptionsItemSelected": [
+   "MenuItem.getItemId"
+  ],
+  "Main.onMenuItemClick": [
+   "MenuItem.getItemId"
+  ],
+  "Main.updateWidgets": [
+   "AppWidgetManager.getAppWidgetIds",
+   "AppWidgetManager.getInstance",
+   "ComponentName.<init>",
+   "Intent.<init>",
+   "Intent.putExtra"
+  ],
+  "Main.onAddClick": [
+   "Intent.<init>"
+  ],
+  "Main.onClearClick": [
+   "List.clear"
+  ],
+  "Main.onCopyClick": [
+   "ClipData.newPlainText",
+   "ClipboardManager.setPrimaryClip",
+   "Double.valueOf",
+   "Integer.intValue",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "List.clear",
+   "List.get",
+   "List.iterator",
+   "Number.doubleValue",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.parse",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits"
+  ],
+  "Main.onRemoveClick": [
+   "ArrayList.<init>",
+   "Integer.intValue",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "List.add",
+   "List.clear",
+   "List.get",
+   "List.indexOf",
+   "List.iterator",
+   "List.remove"
+  ],
+  "Main.onChartClick": [
+   "ArrayList.<init>",
+   "Integer.intValue",
+   "Integer.valueOf",
+   "Intent.<init>",
+   "Intent.putIntegerArrayListExtra",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "List.add",
+   "List.clear",
+   "List.get",
+   "List.iterator"
+  ],
+  "Main.onRefreshClick": [
+   "ConnectivityManager.getActiveNetworkInfo",
+   "NetworkInfo.getType",
+   "NetworkInfo.isConnected",
+   "NetworkInfo.isRoaming",
+   "TextView.setText"
+  ],
+  "Main.onUpdateClick": [
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits"
+  ],
+  "Main.updateDialog": [
+   "AlertDialog$Builder.<init>",
+   "AlertDialog$Builder.create",
+   "AlertDialog$Builder.getContext",
+   "AlertDialog$Builder.setNegativeButton",
+   "AlertDialog$Builder.setPositiveButton",
+   "AlertDialog$Builder.setTitle",
+   "AlertDialog.setView",
+   "AlertDialog.show",
+   "Context.getSystemService",
+   "EditText.setText",
+   "LayoutInflater.inflate"
+  ],
+  "Main.onHelpClick": [
+   "Intent.<init>"
+  ],
+  "Main.onSettingsClick": [
+   "Intent.<init>"
+  ],
+  "Main.onClick": [
+   "EditText.setSelection",
+   "View.clearFocus",
+   "View.getId",
+   "View.requestFocus"
+  ],
+  "Main.afterTextChanged": [
+   "Double.doubleValue",
+   "Double.valueOf",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "List.add",
+   "List.clear",
+   "List.iterator",
+   "Map.get",
+   "Number.doubleValue",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.parse",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "Object.toString",
+   "String.length"
+  ],
+  "Main.onEditorAction": [
+   "CharSequence.toString",
+   "Double.doubleValue",
+   "Double.valueOf",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "List.add",
+   "List.clear",
+   "List.iterator",
+   "Map.get",
+   "Number.doubleValue",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.parse",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "String.length",
+   "TextView.getText",
+   "TextView.setText"
+  ],
+  "Main.onItemClick": [
+   "Double.doubleValue",
+   "Double.toString",
+   "EditText.clearFocus",
+   "EditText.requestFocus",
+   "EditText.setText",
+   "ImageView.setImageResource",
+   "Integer.valueOf",
+   "JSONArray.<init>",
+   "JSONArray.toString",
+   "List.add",
+   "List.contains",
+   "List.get",
+   "List.indexOf",
+   "List.isEmpty",
+   "List.remove",
+   "Map.containsKey",
+   "Map.get",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.putInt",
+   "SharedPreferences$Editor.putString",
+   "SharedPreferences.edit",
+   "TextView.setText"
+  ],
+  "Main.onItemLongClick": [
+   "Integer.valueOf",
+   "List.add",
+   "List.clear"
+  ],
+  "Main.onActivityResult": [
+   "Double.doubleValue",
+   "Double.valueOf",
+   "Integer.intValue",
+   "Integer.valueOf",
+   "Intent.getIntegerArrayListExtra",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "JSONArray.<init>",
+   "JSONArray.toString",
+   "List.add",
+   "List.contains",
+   "List.iterator",
+   "Map.containsKey",
+   "Map.get",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.putString",
+   "SharedPreferences.edit"
+  ],
+  "Main.onDateResult": [
+   "DateFormat.format",
+   "DateFormat.getDateInstance",
+   "Locale.getDefault",
+   "Resources.getString",
+   "SimpleDateFormat.<init>",
+   "SimpleDateFormat.parse",
+   "String.format",
+   "TextView.setText"
+  ],
+  "Main.onDataResult": [
+   "Double.doubleValue",
+   "Double.valueOf",
+   "Iterator.hasNext",
+   "Iterator.next",
+   "JSONArray.<init>",
+   "JSONArray.toString",
+   "JSONObject.<init>",
+   "JSONObject.toString",
+   "List.add",
+   "List.clear",
+   "List.iterator",
+   "Map.containsKey",
+   "Map.get",
+   "Map.isEmpty",
+   "Map.put",
+   "NumberFormat.format",
+   "NumberFormat.getInstance",
+   "NumberFormat.setGroupingUsed",
+   "NumberFormat.setMaximumFractionDigits",
+   "NumberFormat.setMinimumFractionDigits",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences$Editor.apply",
+   "SharedPreferences$Editor.putString",
+   "SharedPreferences.edit",
+   "TextView.setText"
+  ],
+  "Main.lambda$onUpdateClick$1": [
+   "Dialog.findViewById",
+   "Double.doubleValue",
+   "Double.valueOf",
+   "EditText.getEditableText",
+   "EditText.getText",
+   "Map.containsKey",
+   "Map.get",
+   "Map.put",
+   "Number.doubleValue",
+   "NumberFormat.parse",
+   "Object.toString",
+   "String.isEmpty"
+  ],
+  "Main.lambda$onCreate$0": [
+   "PopupMenu.<init>",
+   "PopupMenu.inflate",
+   "PopupMenu.setOnMenuItemClickListener",
+   "PopupMenu.show"
+  ],
+  "ChoiceDialog.<init>": [
+   "Activity.<init>"
+  ],
+  "ChoiceDialog.onCreate": [
+   "Activity.onCreate",
+   "ArrayList.<init>",
+   "Arrays.asList",
+   "Button.setOnClickListener",
+   "Integer.parseInt",
+   "ListView.setAdapter",
+   "ListView.setOnItemClickListener",
+   "ListView.setOnItemLongClickListener",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "Resources.getConfiguration",
+   "SharedPreferences.getString"
+  ],
+  "ChoiceDialog.onRestoreInstanceState": [
+   "Activity.onRestoreInstanceState",
+   "Bundle.getIntegerArrayList",
+   "Button.setEnabled",
+   "List.addAll",
+   "List.isEmpty"
+  ],
+  "ChoiceDialog.onSaveInstanceState": [
+   "Activity.onSaveInstanceState",
+   "Bundle.putIntegerArrayList"
+  ],
+  "ChoiceDialog.onClick": [
+   "Button.setEnabled",
+   "Intent.<init>",
+   "Intent.putIntegerArrayListExtra",
+   "List.clear",
+   "View.getId"
+  ],
+  "ChoiceDialog.onItemClick": [
+   "Button.setEnabled",
+   "Integer.valueOf",
+   "Intent.<init>",
+   "Intent.putIntegerArrayListExtra",
+   "List.add",
+   "List.contains",
+   "List.indexOf",
+   "List.isEmpty",
+   "List.remove"
+  ],
+  "ChoiceDialog.onItemLongClick": [
+   "Button.setEnabled",
+   "Integer.valueOf",
+   "List.add",
+   "List.clear"
+  ],
+  "Parser.<init>": [
+   "Object.<init>"
+  ],
+  "Parser.startParser(String)": [
+   "Exception.printStackTrace",
+   "HashMap.<init>",
+   "Map.clear",
+   "URL.<init>",
+   "URL.openStream",
+   "Xml.parse"
+  ],
+  "Parser.startParser(Context,int)": [
+   "Context.getResources",
+   "HashMap.<init>",
+   "Map.clear",
+   "Resources.openRawResource",
+   "Xml.parse"
+  ],
+  "CurrencyWidgetRefresh.<init>": [
+   "Activity.<init>"
+  ],
+  "CurrencyWidgetRefresh.onCreate": [
+   "Activity.onCreate",
+   "ConnectivityManager.getActiveNetworkInfo",
+   "Intent.<init>",
+   "Log.d",
+   "NetworkInfo.getType",
+   "NetworkInfo.isConnected",
+   "NetworkInfo.isRoaming",
+   "PreferenceManager.getDefaultSharedPreferences",
+   "SharedPreferences.getBoolean",
+   "StringBuilder.<init>",
+   "StringBuilder.append",
+   "StringBuilder.toString"
+  ]
+ },
+ "receiver_variants": [],
+ "impl": {
+  "CurrencyWidgetProvider": {
+   "<init>": {
+    "()V": "CurrencyWidgetProvider.<init>"
+   },
+   "onReceive": {
+    "(Landroid/content/Context;Landroid/content/Intent;)V": "CurrencyWidgetProvider.onReceive"
+   },
+   "onUpdate": {
+    "(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V": "CurrencyWidgetProvider.onUpdate"
+   },
+   "onDeleted": {
+    "(Landroid/content/Context;[I)V": "CurrencyWidgetProvider.onDeleted"
+   }
+  },
+  "SettingsFragment": {
+   "<init>": {
+    "()V": "SettingsFragment.<init>"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "SettingsFragment.onCreate"
+   },
+   "onResume": {
+    "()V": "SettingsFragment.onResume"
+   },
+   "onPause": {
+    "()V": "SettingsFragment.onPause"
+   },
+   "onPreferenceTreeClick": {
+    "(Landroid/preference/PreferenceScreen;Landroid/preference/Preference;)Z": "SettingsFragment.onPreferenceTreeClick"
+   },
+   "onSharedPreferenceChanged": {
+    "(Landroid/content/SharedPreferences;Ljava/lang/String;)V": "SettingsFragment.onSharedPreferenceChanged"
+   }
+  },
+  "HelpActivity": {
+   "<init>": {
+    "()V": "HelpActivity.<init>"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "HelpActivity.onCreate"
+   },
+   "onOptionsItemSelected": {
+    "(Landroid/view/MenuItem;)Z": "HelpActivity.onOptionsItemSelected"
+   },
+   "read": {
+    "(Landroid/content/Context;I)Ljava/lang/CharSequence;": "HelpActivity.read"
+   }
+  },
+  "CurrencyWidgetUpdate": {
+   "<init>": {
+    "()V": "CurrencyWidgetUpdate.<init>"
+   },
+   "onCreate": {
+    "()V": "CurrencyWidgetUpdate.onCreate"
+   },
+   "onStartCommand": {
+    "(Landroid/content/Intent;II)I": "CurrencyWidgetUpdate.onStartCommand"
+   },
+   "startUpdate": {
+    "()V": "CurrencyWidgetUpdate.startUpdate"
+   },
+   "onBind": {
+    "(Landroid/content/Intent;)Landroid/os/IBinder;": "CurrencyWidgetUpdate.onBind"
+   },
+   "onDestroy": {
+    "()V": "CurrencyWidgetUpdate.onDestroy"
+   },
+   "onDateResult": {
+    "(Ljava/lang/String;)V": "CurrencyWidgetUpdate.onDateResult"
+   },
+   "onDataResult": {
+    "(Ljava/util/Map;)V": "CurrencyWidgetUpdate.onDataResult"
+   },
+   "lambda$startUpdate$0": {
+    "(Landroid/widget/RemoteViews;Landroid/appwidget/AppWidgetManager;[I)V": "CurrencyWidgetUpdate.lambda$startUpdate$0"
+   }
+  },
+  "Data": {
+   "<init>": {
+    "()V": "Data.<init>"
+   },
+   "getInstance": {
+    "(Lorg/billthefarmer/currency/Data$OnResultListener;)Lorg/billthefarmer/currency/Data;": "Data.getInstance"
+   },
+   "getList": {
+    "()Ljava/util/List;": "Data.getList"
+   },
+   "setList": {
+    "(Ljava/util/List;)V": "Data.setList"
+   },
+   "getMap": {
+    "()Ljava/util/Map;": "Data.getMap"
+   },
+   "setMap": {
+    "(Ljava/util/Map;)V": "Data.setMap"
+   },
+   "startParse": {
+    "(Ljava/lang/String;)V": "Data.startParse"
+   },
+   "lambda$startParse$2": {
+    "(Ljava/lang/String;)V": "Data.lambda$startParse$2"
+   },
+   "lambda$startParse$1": {
+    "(Lorg/billthefarmer/currency/Parser;)V": "Data.lambda$startParse$1"
+   },
+   "lambda$startParse$0": {
+    "()V": "Data.lambda$startParse$0"
+   }
+  },
+  "Singleton": {
+   "<init>": {
+    "()V": "Singleton.<init>"
+   },
+   "getInstance": {
+    "(Lorg/billthefarmer/currency/Singleton$OnResultListener;)Lorg/billthefarmer/currency/Singleton;": "Singleton.getInstance"
+   },
+   "getList": {
+    "()Ljava/util/List;": "Singleton.getList"
+   },
+   "setList": {
+    "(Ljava/util/List;)V": "Singleton.setList"
+   },
+   "getMap": {
+    "()Ljava/util/Map;": "Singleton.getMap"
+   },
+   "setMap": {
+    "(Ljava/util/Map;)V": "Singleton.setMap"
+   },
+   "isParsing": {
+    "()Z": "Singleton.isParsing"
+   },
+   "startParse": {
+    "(Ljava/lang/String;)V": "Singleton.startParse"
+   },
+   "lambda$startParse$1": {
+    "(Ljava/lang/String;)V": "Singleton.lambda$startParse$1"
+   },
+   "lambda$startParse$0": {
+    "(Lorg/billthefarmer/currency/ChartParser;)V": "Singleton.lambda$startParse$0"
+   }
+  },
+  "Main$Currency": {
+   "<init>": {
+    "(Ljava/lang/String;Ljava/lang/String;II)V": "Main$Currency.<init>"
+   }
+  },
+  "Parser$Handler": {
+   "<init>": {
+    "(Lorg/billthefarmer/currency/Parser;)V": "Parser$Handler.<init>"
+   },
+   "startElement": {
+    "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V": "Parser$Handler.startElement"
+   }
+  },
+  "SettingsActivity": {
+   "<init>": {
+    "()V": "SettingsActivity.<init>"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "SettingsActivity.onCreate"
+   },
+   "onOptionsItemSelected": {
+    "(Landroid/view/MenuItem;)Z": "SettingsActivity.onOptionsItemSelected"
+   }
+  },
+  "BuildConfig": {},
+  "ChartActivity$DateAxisValueFormatter": {
+   "<init>": {
+    "(Lorg/billthefarmer/currency/ChartActivity;)V": "ChartActivity$DateAxisValueFormatter.<init>"
+   },
+   "getFormattedValue": {
+    "(F)Ljava/lang/String;": "ChartActivity$DateAxisValueFormatter.getFormattedValue"
+   }
+  },
+  "ChartActivity": {
+   "<init>": {
+    "()V": "ChartActivity.<init>"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "ChartActivity.onCreate"
+   },
+   "onResume": {
+    "()V": "ChartActivity.onResume"
+   },
+   "onPause": {
+    "()V": "ChartActivity.onPause"
+   },
+   "onSaveInstanceState": {
+    "(Landroid/os/Bundle;)V": "ChartActivity.onSaveInstanceState"
+   },
+   "onCreateOptionsMenu": {
+    "(Landroid/view/Menu;)Z": "ChartActivity.onCreateOptionsMenu"
+   },
+   "onPrepareOptionsMenu": {
+    "(Landroid/view/Menu;)Z": "ChartActivity.onPrepareOptionsMenu"
+   },
+   "onOptionsItemSelected": {
+    "(Landroid/view/MenuItem;)Z": "ChartActivity.onOptionsItemSelected"
+   },
+   "onInvertClick": {
+    "()Z": "ChartActivity.onInvertClick"
+   },
+   "onNewClick": {
+    "()Z": "ChartActivity.onNewClick"
+   },
+   "onRefreshClick": {
+    "(Ljava/lang/String;)Z": "ChartActivity.onRefreshClick"
+   },
+   "onWeekClick": {
+    "(Landroid/view/MenuItem;)Z": "ChartActivity.onWeekClick"
+   },
+   "onMonthClick": {
+    "(Landroid/view/MenuItem;)Z": "ChartActivity.onMonthClick"
+   },
+   "onQuarterClick": {
+    "(Landroid/view/MenuItem;)Z": "ChartActivity.onQuarterClick"
+   },
+   "onYearClick": {
+    "(Landroid/view/MenuItem;)Z": "ChartActivity.onYearClick"
+   },
+   "onYearsClick": {
+    "(Landroid/view/MenuItem;)Z": "ChartActivity.onYearsClick"
+   },
+   "onMaxClick": {
+    "(Landroid/view/MenuItem;)Z": "ChartActivity.onMaxClick"
+   },
+   "updateRange": {
+    "()V": "ChartActivity.updateRange"
+   },
+   "onActivityResult": {
+    "(IILandroid/content/Intent;)V": "ChartActivity.onActivityResult"
+   },
+   "onDateResult": {
+    "(Ljava/lang/String;)V": "ChartActivity.onDateResult"
+   },
+   "onDataResult": {
+    "(Ljava/util/Map;)V": "ChartActivity.onDataResult"
+   },
+   "showToast": {
+    "(I[Ljava/lang/Object;)V": "ChartActivity.showToast(int,Object[])",
+    "(Ljava/lang/String;[Ljava/lang/Object;)V": "ChartActivity.showToast(String,Object[])",
+    "(Ljava/lang/String;)V": "ChartActivity.showToast(String)"
+   },
+   "lambda$onCreate$0": {
+    "(Landroid/view/View;)V": "ChartActivity.lambda$onCreate$0"
+   }
+  },
+  "CurrencyWidgetConfigure": {
+   "<init>": {
+    "()V": "CurrencyWidgetConfigure.<init>"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "CurrencyWidgetConfigure.onCreate"
+   },
+   "lambda$onCreate$1": {
+    "(Landroid/view/View;)V": "CurrencyWidgetConfigure.lambda$onCreate$1"
+   },
+   "lambda$onCreate$0": {
+    "(Landroid/content/SharedPreferences;Landroid/widget/AdapterView;Landroid/view/View;IJ)V": "CurrencyWidgetConfigure.lambda$onCreate$0"
+   }
+  },
+  "CurrencyAdapter": {
+   "<init>": {
+    "(Landroid/content/Context;ILjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V": "CurrencyAdapter.<init>"
+   },
+   "getCount": {
+    "()I": "CurrencyAdapter.getCount"
+   },
+   "getItem": {
+    "(I)Ljava/lang/Object;": "CurrencyAdapter.getItem"
+   },
+   "getItemId": {
+    "(I)J": "CurrencyAdapter.getItemId"
+   },
+   "getView": {
+    "(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;": "CurrencyAdapter.getView"
+   }
+  },
+  "ChartParser": {
+   "<init>": {
+    "()V": "ChartParser.<init>"
+   },
+   "getMap": {
+    "()Ljava/util/Map;": "ChartParser.getMap"
+   },
+   "getDate": {
+    "()Ljava/lang/String;": "ChartParser.getDate"
+   },
+   "startParser": {
+    "(Ljava/lang/String;)Z": "ChartParser.startParser(String)",
+    "(Landroid/content/Context;I)Z": "ChartParser.startParser(Context,int)"
+   }
+  },
+  "AboutPreference": {
+   "<init>": {
+    "(Landroid/content/Context;Landroid/util/AttributeSet;)V": "AboutPreference.<init>"
+   },
+   "onBindDialogView": {
+    "(Landroid/view/View;)V": "AboutPreference.onBindDialogView"
+   }
+  },
+  "ChartParser$Handler": {
+   "<init>": {
+    "(Lorg/billthefarmer/currency/ChartParser;)V": "ChartParser$Handler.<init>"
+   },
+   "startElement": {
+    "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V": "ChartParser$Handler.startElement"
+   }
+  },
+  "ChoiceAdapter": {
+   "<init>": {
+    "(Landroid/content/Context;ILjava/util/List;Ljava/util/List;)V": "ChoiceAdapter.<init>"
+   },
+   "getCount": {
+    "()I": "ChoiceAdapter.getCount"
+   },
+   "getItem": {
+    "(I)Ljava/lang/Object;": "ChoiceAdapter.getItem"
+   },
+   "getItemId": {
+    "(I)J": "ChoiceAdapter.getItemId"
+   },
+   "getView": {
+    "(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;": "ChoiceAdapter.getView"
+   }
+  },
+  "Main": {
+   "<init>": {
+    "()V": "Main.<init>"
+   },
+   "currencyIndex": {
+    "(Ljava/lang/String;)I": "Main.currencyIndex"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "Main.onCreate"
+   },
+   "onResume": {
+    "()V": "Main.onResume"
+   },
+   "onPause": {
+    "()V": "Main.onPause"
+   },
+   "onCreateOptionsMenu": {
+    "(Landroid/view/Menu;)Z": "Main.onCreateOptionsMenu"
+   },
+   "onOptionsItemSelected": {
+    "(Landroid/view/MenuItem;)Z": "Main.onOptionsItemSelected"
+   },
+   "onMenuItemClick": {
+    "(Landroid/view/MenuItem;)Z": "Main.onMenuItemClick"
+   },
+   "updateWidgets": {
+    "()V": "Main.updateWidgets"
+   },
+   "onAddClick": {
+    "()Z": "Main.onAddClick"
+   },
+   "onClearClick": {
+    "()Z": "Main.onClearClick"
+   },
+   "onCopyClick": {
+    "()Z": "Main.onCopyClick"
+   },
+   "onRemoveClick": {
+    "()Z": "Main.onRemoveClick"
+   },
+   "onChartClick": {
+    "()Z": "Main.onChartClick"
+   },
+   "onRefreshClick": {
+    "()Z": "Main.onRefreshClick"
+   },
+   "onUpdateClick": {
+    "()Z": "Main.onUpdateClick"
+   },
+   "updateDialog": {
+    "(ILjava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)V": "Main.updateDialog"
+   },
+   "onHelpClick": {
+    "()Z": "Main.onHelpClick"
+   },
+   "onSettingsClick": {
+    "()Z": "Main.onSettingsClick"
+   },
+   "onClick": {
+    "(Landroid/view/View;)V": "Main.onClick"
+   },
+   "afterTextChanged": {
+    "(Landroid/text/Editable;)V": "Main.afterTextChanged"
+   },
+   "beforeTextChanged": {
+    "(Ljava/lang/CharSequence;III)V": "Main.beforeTextChanged"
+   },
+   "onTextChanged": {
+    "(Ljava/lang/CharSequence;III)V": "Main.onTextChanged"
+   },
+   "onEditorAction": {
+    "(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z": "Main.onEditorAction"
+   },
+   "onItemClick": {
+    "(Landroid/widget/AdapterView;Landroid/view/View;IJ)V": "Main.onItemClick"
+   },
+   "onItemLongClick": {
+    "(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z": "Main.onItemLongClick"
+   },
+   "onActivityResult": {
+    "(IILandroid/content/Intent;)V": "Main.onActivityResult"
+   },
+   "onDateResult": {
+    "(Ljava/lang/String;)V": "Main.onDateResult"
+   },
+   "onDataResult": {
+    "(Ljava/util/Map;)V": "Main.onDataResult"
+   },
+   "lambda$onUpdateClick$1": {
+    "(Ljava/text/NumberFormat;Ljava/text/NumberFormat;Landroid/content/DialogInterface;I)V": "Main.lambda$onUpdateClick$1"
+   },
+   "lambda$onCreate$0": {
+    "(Landroid/view/View;)V": "Main.lambda$onCreate$0"
+   }
+  },
+  "ChoiceDialog": {
+   "<init>": {
+    "()V": "ChoiceDialog.<init>"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "ChoiceDialog.onCreate"
+   },
+   "onRestoreInstanceState": {
+    "(Landroid/os/Bundle;)V": "ChoiceDialog.onRestoreInstanceState"
+   },
+   "onSaveInstanceState": {
+    "(Landroid/os/Bundle;)V": "ChoiceDialog.onSaveInstanceState"
+   },
+   "onClick": {
+    "(Landroid/view/View;)V": "ChoiceDialog.onClick"
+   },
+   "onItemClick": {
+    "(Landroid/widget/AdapterView;Landroid/view/View;IJ)V": "ChoiceDialog.onItemClick"
+   },
+   "onItemLongClick": {
+    "(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z": "ChoiceDialog.onItemLongClick"
+   }
+  },
+  "Parser": {
+   "<init>": {
+    "()V": "Parser.<init>"
+   },
+   "getMap": {
+    "()Ljava/util/Map;": "Parser.getMap"
+   },
+   "getDate": {
+    "()Ljava/lang/String;": "Parser.getDate"
+   },
+   "startParser": {
+    "(Ljava/lang/String;)Z": "Parser.startParser(String)",
+    "(Landroid/content/Context;I)Z": "Parser.startParser(Context,int)"
+   }
+  },
+  "CurrencyWidgetRefresh": {
+   "<init>": {
+    "()V": "CurrencyWidgetRefresh.<init>"
+   },
+   "onCreate": {
+    "(Landroid/os/Bundle;)V": "CurrencyWidgetRefresh.onCreate"
+   }
+  },
+  "JacocoInstrumentation": {},
+  "SMSInstrumentedReceiver": {}
+ }
+}

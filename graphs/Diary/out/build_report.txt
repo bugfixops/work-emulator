@@ -1,0 +1,20 @@
+methods 286, pages 34, edges 1435
+verdicts: REACHABLE 265, UNREACHABLE 21
+unreachable by kind: framework_never_calls 4, no_trigger_in_app 17
+edge kinds: ASYNC 23, CALL 598, ENTERS 213, ENTRY 10, FRAMEWORK 143, GUI 241, INTENT 7, LIFECYCLE 51, REGISTER 39, RESULT 12, SYSTEM 98
+edge classes: explicit 598, non_standard 14, page 214, standard 609; class set by hand: 16 of 1435
+auto edges (from bytecode): 0 of 1435
+evidence: FW-SRC 387, INFERRED 20, SRC 1028
+edges with a claim that cites no source line (FW-MEMORY, INFERRED, DYN, UNVERIFIED): 52 of 1435
+needs_state edges: 100; env edges: 75; methods with ENV: 58, with STATE: 13
+reachable methods whose best route has a non-standard edge: 33; with no explicit/standard-only route at all: 9
+labels confirmed by: INFERRED 29, SOURCE 257
+path status: SOURCE_OK 25, UNCHECKED 240
+verification label: checked 51, errors found 7 (rate 0.137), unclear 0
+verification edge: checked 37, errors found 0 (rate 0.0), unclear 10
+verification path: checked 25, errors found 7 (rate 0.28), unclear 5
+sanity check (tool coverage; never used to set a label): 187 methods ran in a tool run; 0 UNREACHABLE but ran (contradictions); 1 ENV-gated on the best route but ran
+  ENV-GATED BUT RAN: Diary.readAssetFile
+not in the JaCoCo report (filtered trivial methods): FileUtils.<init>
+errors: 0
+warnings: 0

@@ -1,0 +1,2011 @@
+[
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.attachInfo",
+  "desc": "(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.buildPath",
+  "desc": "(Ljava/io/File;[Ljava/lang/String;)Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.copyOf",
+  "desc": "([Ljava/lang/Object;I)[Ljava/lang/Object;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.copyOf",
+  "desc": "([Ljava/lang/String;I)[Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.delete",
+  "desc": "(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.getPathStrategy",
+  "desc": "(Landroid/content/Context;Ljava/lang/String;)Landroid/support/v4/content/FileProvider$PathStrategy;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.getType",
+  "desc": "(Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.getUriForFile",
+  "desc": "(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.insert",
+  "desc": "(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.modeToMode",
+  "desc": "(Ljava/lang/String;)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.onCreate",
+  "desc": "()Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.openFile",
+  "desc": "(Landroid/net/Uri;Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.parsePathStrategy",
+  "desc": "(Landroid/content/Context;Ljava/lang/String;)Landroid/support/v4/content/FileProvider$PathStrategy;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.query",
+  "desc": "(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider",
+  "short": "FileProvider.update",
+  "desc": "(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider$SimplePathStrategy",
+  "short": "FileProvider$SimplePathStrategy.<init>",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider$SimplePathStrategy",
+  "short": "FileProvider$SimplePathStrategy.addRoot",
+  "desc": "(Ljava/lang/String;Ljava/io/File;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "android/support/v4/content/FileProvider$SimplePathStrategy",
+  "short": "FileProvider$SimplePathStrategy.getFileForUri",
+  "desc": "(Landroid/net/Uri;)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "android/support/v4/content/FileProvider$SimplePathStrategy",
+  "short": "FileProvider$SimplePathStrategy.getUriForFile",
+  "desc": "(Ljava/io/File;)Landroid/net/Uri;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/AboutPreference",
+  "short": "AboutPreference.<init>",
+  "desc": "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/AboutPreference",
+  "short": "AboutPreference.onBindDialogView",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/BuildConfig",
+  "short": "BuildConfig.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/BuildConfig",
+  "short": "BuildConfig.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DatePickerPreference",
+  "short": "DatePickerPreference.<init>",
+  "desc": "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DatePickerPreference",
+  "short": "DatePickerPreference.getValue",
+  "desc": "()J",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DatePickerPreference",
+  "short": "DatePickerPreference.lambda$onCreateDialogView$0",
+  "desc": "(Landroid/widget/DatePicker;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DatePickerPreference",
+  "short": "DatePickerPreference.onCreateDialogView",
+  "desc": "()Landroid/view/View;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DatePickerPreference",
+  "short": "DatePickerPreference.onDialogClosed",
+  "desc": "(Z)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DatePickerPreference",
+  "short": "DatePickerPreference.onGetDefaultValue",
+  "desc": "(Landroid/content/res/TypedArray;I)Ljava/lang/Object;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DatePickerPreference",
+  "short": "DatePickerPreference.onSetInitialValue",
+  "desc": "(ZLjava/lang/Object;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addEvents",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addIndexLink",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addLink",
+  "desc": "(Landroid/net/Uri;Ljava/lang/String;Z)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addLinkDialog",
+  "desc": "(Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addMap",
+  "desc": "(Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addMedia",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addMedia",
+  "desc": "(Landroid/content/Intent;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addMedia",
+  "desc": "(Landroid/net/Uri;Z)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.addTime",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.alertDialog",
+  "desc": "(IIIILandroid/content/DialogInterface$OnClickListener;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.alertDialog",
+  "desc": "(ILjava/lang/String;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.animateAccept",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.animateEdit",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.animateSwipeLeft",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.animateSwipeRight",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.backup",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.cancel",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.changeDate",
+  "desc": "(J)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.changeDate",
+  "desc": "(Ljava/util/Calendar;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.checkPosition",
+  "desc": "(Ljava/lang/CharSequence;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.dateCheck",
+  "desc": "(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.dateCheck",
+  "desc": "(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/CharSequence;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.dateCheck",
+  "desc": "(Ljava/lang/CharSequence;Ljava/lang/String;Ljava/util/Date;)Ljava/lang/CharSequence;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.dayValue",
+  "desc": "(Ljava/io/File;)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.diaryEntry",
+  "desc": "(Ljava/lang/String;)Ljava/util/Calendar;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.dispatchTouchEvent",
+  "desc": "(Landroid/view/MotionEvent;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.editScript",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.editStyles",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.eventCheck",
+  "desc": "(Ljava/lang/CharSequence;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.findAll",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getBaseUrl",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getCurrent",
+  "desc": "()Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getDay",
+  "desc": "(III)Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getEntries",
+  "desc": "()Ljava/util/List;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getEntries",
+  "desc": "(Ljava/util/Calendar;)Ljava/util/List;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getFile",
+  "desc": "()Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getFile",
+  "desc": "(Ljava/util/Calendar;)Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getHome",
+  "desc": "()Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getMonth",
+  "desc": "(II)Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getNextCalendarDay",
+  "desc": "()Ljava/util/Calendar;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getNextCalendarMonth",
+  "desc": "()Ljava/util/Calendar;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getNextEntry",
+  "desc": "(III)Ljava/util/Calendar;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getPreferences",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getPrevCalendarDay",
+  "desc": "()Ljava/util/Calendar;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getPrevCalendarMonth",
+  "desc": "()Ljava/util/Calendar;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getPrevEntry",
+  "desc": "(III)Ljava/util/Calendar;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getScript",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getStyles",
+  "desc": "()Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.getYear",
+  "desc": "(I)Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.goToDate",
+  "desc": "(Ljava/util/Calendar;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.index",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$addEvents$18",
+  "desc": "(JLjava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$addLink$21",
+  "desc": "(Ljava/lang/String;ZLandroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$backup$19",
+  "desc": "(Ljava/lang/String;Landroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$cancel$17",
+  "desc": "(Landroid/content/DialogInterface;I)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$checkPosition$20",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$listDays$3",
+  "desc": "(Ljava/io/File;Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$listMonths$2",
+  "desc": "(Ljava/io/File;Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$listYears$1",
+  "desc": "(Ljava/io/File;Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$10",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$11",
+  "desc": "(Landroid/view/View;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$12",
+  "desc": "(Landroid/view/View;Z)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$13",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$14",
+  "desc": "(Landroid/view/View;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$15",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$16",
+  "desc": "(Landroid/view/View;IIII)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$4",
+  "desc": "()V",
+  "monkey": true,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$5",
+  "desc": "(Landroid/view/View;IIII)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$6",
+  "desc": "(Landroid/view/View;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$7",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$8",
+  "desc": "(Landroid/view/View;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$setListeners$9",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.lambda$sortFiles$0",
+  "desc": "(Ljava/io/File;Ljava/io/File;)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.listDays",
+  "desc": "(Ljava/io/File;)[Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.listEntries",
+  "desc": "(Ljava/io/File;Ljava/util/List;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.listFiles",
+  "desc": "(Ljava/io/File;Ljava/util/List;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.listMonths",
+  "desc": "(Ljava/io/File;)[Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.listYears",
+  "desc": "(Ljava/io/File;)[Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.load",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.loadMarkdown",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.loadMarkdown",
+  "desc": "(Ljava/lang/CharSequence;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.mapCheck",
+  "desc": "(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.markdownCheck",
+  "desc": "(Ljava/lang/CharSequence;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.mediaCheck",
+  "desc": "(Landroid/content/Intent;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.mediaCheck",
+  "desc": "(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.monthValue",
+  "desc": "(Ljava/io/File;)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.nextDay",
+  "desc": "(III)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.nextEntry",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.nextMonth",
+  "desc": "(II)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.nextYear",
+  "desc": "(I)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onActionModeStarted",
+  "desc": "(Landroid/view/ActionMode;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onActivityResult",
+  "desc": "(IILandroid/content/Intent;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onBackPressed",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onCreateOptionsMenu",
+  "desc": "(Landroid/view/Menu;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onDateSet",
+  "desc": "(Landroid/widget/DatePicker;III)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onDateSet",
+  "desc": "(Lorg/billthefarmer/view/CustomCalendarView;III)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onPause",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onPrepareOptionsMenu",
+  "desc": "(Landroid/view/Menu;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onRequestPermissionsResult",
+  "desc": "(I[Ljava/lang/String;[I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onRestoreInstanceState",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onResume",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onSaveInstanceState",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onSwipeDown",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onSwipeLeft",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onSwipeRight",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.onSwipeUp",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.parseTime",
+  "desc": "(Ljava/io/File;)J",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.positionCheck",
+  "desc": "(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.prevDay",
+  "desc": "(III)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.prevEntry",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.prevMonth",
+  "desc": "(II)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.prevYear",
+  "desc": "(I)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.print",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.read",
+  "desc": "(Ljava/io/File;)Ljava/lang/StringBuilder;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.readAssetFile",
+  "desc": "(Ljava/lang/String;)Ljava/lang/CharSequence;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.resolveContent",
+  "desc": "(Landroid/net/Uri;)Landroid/net/Uri;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.save",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.save",
+  "desc": "(Ljava/lang/CharSequence;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.saveAsDialog",
+  "desc": "(Ljava/lang/String;IILandroid/content/DialogInterface$OnClickListener;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.setDate",
+  "desc": "(Ljava/util/Calendar;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.setListeners",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.setTitleDate",
+  "desc": "(Ljava/util/Date;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.setVisibility",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.settings",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.share",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.showCustomCalendarDialog",
+  "desc": "(Ljava/util/Calendar;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.showDatePickerDialog",
+  "desc": "(Ljava/util/Calendar;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.showToast",
+  "desc": "(I)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.showToast",
+  "desc": "(Ljava/lang/String;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.sortFiles",
+  "desc": "([Ljava/io/File;)[Ljava/io/File;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.startAnimation",
+  "desc": "(Landroid/view/View;II)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.template",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.today",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.updateWidgets",
+  "desc": "(Ljava/lang/CharSequence;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary",
+  "short": "Diary.yearValue",
+  "desc": "(Ljava/io/File;)I",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$1",
+  "short": "Diary$1.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$1",
+  "short": "Diary$1.onPageFinished",
+  "desc": "(Landroid/webkit/WebView;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$1",
+  "short": "Diary$1.shouldOverrideUrlLoading",
+  "desc": "(Landroid/webkit/WebView;Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$2",
+  "short": "Diary$2.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$2",
+  "short": "Diary$2.afterTextChanged",
+  "desc": "(Landroid/text/Editable;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$2",
+  "short": "Diary$2.beforeTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$2",
+  "short": "Diary$2.onTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$EntryDecorator",
+  "short": "Diary$EntryDecorator.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$EntryDecorator",
+  "short": "Diary$EntryDecorator.decorate",
+  "desc": "(Lorg/billthefarmer/view/DayView;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$FindTask",
+  "short": "Diary$FindTask.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$FindTask",
+  "short": "Diary$FindTask.doInBackground",
+  "desc": "([Ljava/lang/String;)Ljava/util/List;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$FindTask",
+  "short": "Diary$FindTask.lambda$onPostExecute$0",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$FindTask",
+  "short": "Diary$FindTask.lambda$onPostExecute$1",
+  "desc": "([Ljava/lang/String;Lorg/billthefarmer/diary/Diary;Landroid/content/DialogInterface;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$FindTask",
+  "short": "Diary$FindTask.onPostExecute",
+  "desc": "(Ljava/util/List;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$GestureListener",
+  "short": "Diary$GestureListener.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$GestureListener",
+  "short": "Diary$GestureListener.lambda$onDoubleTap$0",
+  "desc": "(F)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$GestureListener",
+  "short": "Diary$GestureListener.onDoubleTap",
+  "desc": "(Landroid/view/MotionEvent;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$GestureListener",
+  "short": "Diary$GestureListener.onDown",
+  "desc": "(Landroid/view/MotionEvent;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$GestureListener",
+  "short": "Diary$GestureListener.onFling",
+  "desc": "(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$QueryTextListener",
+  "short": "Diary$QueryTextListener.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$QueryTextListener",
+  "short": "Diary$QueryTextListener.onQueryTextChange",
+  "desc": "(Ljava/lang/String;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$QueryTextListener",
+  "short": "Diary$QueryTextListener.onQueryTextSubmit",
+  "desc": "(Ljava/lang/String;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$ZipTask",
+  "short": "Diary$ZipTask.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Diary;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$ZipTask",
+  "short": "Diary$ZipTask.doInBackground",
+  "desc": "([Landroid/net/Uri;)Ljava/lang/Void;",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$ZipTask",
+  "short": "Diary$ZipTask.lambda$doInBackground$0",
+  "desc": "(Lorg/billthefarmer/diary/Diary;Ljava/lang/Exception;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$ZipTask",
+  "short": "Diary$ZipTask.onPostExecute",
+  "desc": "(Ljava/lang/Void;)V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Diary$ZipTask",
+  "short": "Diary$ZipTask.onPreExecute",
+  "desc": "()V",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.getDay",
+  "desc": "(III)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.getFile",
+  "desc": "()Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.getFile",
+  "desc": "(Ljava/util/Calendar;)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.getHome",
+  "desc": "()Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.getMonth",
+  "desc": "(II)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.getText",
+  "desc": "(Landroid/content/Context;)Ljava/lang/CharSequence;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.getYear",
+  "desc": "(I)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.onAppWidgetOptionsChanged",
+  "desc": "(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;ILandroid/os/Bundle;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.onReceive",
+  "desc": "(Landroid/content/Context;Landroid/content/Intent;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetProvider",
+  "short": "DiaryWidgetProvider.onUpdate",
+  "desc": "(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.<init>",
+  "desc": "()V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.getHome",
+  "desc": "()Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.getMonth",
+  "desc": "(II)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.getNextEntry",
+  "desc": "(III)Ljava/util/Calendar;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.getPrevEntry",
+  "desc": "(III)Ljava/util/Calendar;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.getYear",
+  "desc": "(I)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.nextDay",
+  "desc": "(III)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.nextMonth",
+  "desc": "(II)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.nextYear",
+  "desc": "(I)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.prevDay",
+  "desc": "(III)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.prevMonth",
+  "desc": "(II)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/DiaryWidgetUpdate",
+  "short": "DiaryWidgetUpdate.prevYear",
+  "desc": "(I)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.alertDialog",
+  "desc": "(IIIILandroid/content/DialogInterface$OnClickListener;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.alertDialog",
+  "desc": "(ILjava/lang/String;I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.lambda$onBackPressed$3",
+  "desc": "(Landroid/content/DialogInterface;I)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.lambda$setListeners$0",
+  "desc": "(Landroid/widget/ImageButton;Landroid/view/View;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.lambda$setListeners$1",
+  "desc": "(Landroid/view/View;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.lambda$setListeners$2",
+  "desc": "(Landroid/view/View;)Z",
+  "monkey": false,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.onBackPressed",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.onRequestPermissionsResult",
+  "desc": "(I[Ljava/lang/String;[I)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.onRestoreInstanceState",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.onSaveInstanceState",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.read",
+  "desc": "(Landroid/net/Uri;)Ljava/lang/CharSequence;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.resolveContent",
+  "desc": "(Landroid/net/Uri;)Landroid/net/Uri;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.setListeners",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor",
+  "short": "Editor.write",
+  "desc": "(Ljava/lang/CharSequence;Ljava/io/File;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor$1",
+  "short": "Editor$1.<init>",
+  "desc": "(Lorg/billthefarmer/diary/Editor;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor$1",
+  "short": "Editor$1.afterTextChanged",
+  "desc": "(Landroid/text/Editable;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor$1",
+  "short": "Editor$1.beforeTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Editor$1",
+  "short": "Editor$1.onTextChanged",
+  "desc": "(Ljava/lang/CharSequence;III)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.copyFile",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.copyFile",
+  "desc": "(Ljava/io/File;Ljava/io/File;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.createGetContentIntent",
+  "desc": "()Landroid/content/Intent;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.fileProviderPath",
+  "desc": "(Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getDataColumn",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getDisplayName",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getExtension",
+  "desc": "(Ljava/lang/String;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getFile",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getMimeType",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getMimeType",
+  "desc": "(Ljava/io/File;)Ljava/lang/String;",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getPath",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getPathWithoutExtension",
+  "desc": "(Ljava/lang/String;)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getPathWithoutFilename",
+  "desc": "(Ljava/io/File;)Ljava/io/File;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getReadableFileSize",
+  "desc": "(J)Ljava/lang/String;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getSize",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)J",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getThumbnail",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;)Landroid/graphics/Bitmap;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getThumbnail",
+  "desc": "(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;)Landroid/graphics/Bitmap;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getThumbnail",
+  "desc": "(Landroid/content/Context;Ljava/io/File;)Landroid/graphics/Bitmap;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.getUri",
+  "desc": "(Ljava/io/File;)Landroid/net/Uri;",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.isDownloadsDocument",
+  "desc": "(Landroid/net/Uri;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.isExternalStorageDocument",
+  "desc": "(Landroid/net/Uri;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.isGooglePhotosUri",
+  "desc": "(Landroid/net/Uri;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.isLocal",
+  "desc": "(Ljava/lang/String;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.isMediaDocument",
+  "desc": "(Landroid/net/Uri;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.isMediaUri",
+  "desc": "(Landroid/net/Uri;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.lambda$static$0",
+  "desc": "(Ljava/io/File;Ljava/io/File;)I",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.lambda$static$1",
+  "desc": "(Ljava/io/File;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/FileUtils",
+  "short": "FileUtils.lambda$static$2",
+  "desc": "(Ljava/io/File;)Z",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/QueryHandler",
+  "short": "QueryHandler.<clinit>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/QueryHandler",
+  "short": "QueryHandler.<init>",
+  "desc": "(Landroid/content/ContentResolver;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/QueryHandler",
+  "short": "QueryHandler.insertEvent",
+  "desc": "(Landroid/content/Context;JJLjava/lang/String;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/QueryHandler",
+  "short": "QueryHandler.onInsertComplete",
+  "desc": "(ILjava/lang/Object;Landroid/net/Uri;)V",
+  "monkey": false,
+  "ape": false
+ },
+ {
+  "class": "org/billthefarmer/diary/QueryHandler",
+  "short": "QueryHandler.onQueryComplete",
+  "desc": "(ILjava/lang/Object;Landroid/database/Cursor;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/QueryHandler",
+  "short": "QueryHandler.queryEvents",
+  "desc": "(Landroid/content/Context;JJLorg/billthefarmer/diary/QueryHandler$EventListener;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Settings",
+  "short": "Settings.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Settings",
+  "short": "Settings.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/Settings",
+  "short": "Settings.onOptionsItemSelected",
+  "desc": "(Landroid/view/MenuItem;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/SettingsFragment",
+  "short": "SettingsFragment.<init>",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/SettingsFragment",
+  "short": "SettingsFragment.onCreate",
+  "desc": "(Landroid/os/Bundle;)V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/SettingsFragment",
+  "short": "SettingsFragment.onPause",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/SettingsFragment",
+  "short": "SettingsFragment.onPreferenceTreeClick",
+  "desc": "(Landroid/preference/PreferenceScreen;Landroid/preference/Preference;)Z",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/SettingsFragment",
+  "short": "SettingsFragment.onResume",
+  "desc": "()V",
+  "monkey": true,
+  "ape": true
+ },
+ {
+  "class": "org/billthefarmer/diary/SettingsFragment",
+  "short": "SettingsFragment.onSharedPreferenceChanged",
+  "desc": "(Landroid/content/SharedPreferences;Ljava/lang/String;)V",
+  "monkey": true,
+  "ape": true
+ }
+]

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trigger graph</title>
+<style>
+:root{--bg:#fff;--fg:#1f2328;--mut:#656d76;--line:#d0d7de;--card:#f6f8fa;--acc:#0969da;--gui:#8250df;--call:#57606a;--life:#1a7f37;--sys:#bc4c00;--async:#0a7ea4;--fw:#9a6700;--bad:#cf222e;--ok:#1a7f37}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--mut:#8b949e;--line:#30363d;--card:#161b22;--acc:#58a6ff;--gui:#bc8cff;--call:#8b949e;--life:#3fb950;--sys:#ffa657;--async:#39c5cf;--fw:#d29922;--bad:#ff7b72;--ok:#3fb950}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:10px 16px;border-bottom:1px solid var(--line);display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+header h1{font-size:16px;margin:0}header .sub{color:var(--mut);font-size:12px}
+nav{display:flex;gap:4px}nav button{background:var(--card);color:var(--fg);border:1px solid var(--line);padding:5px 12px;border-radius:6px;cursor:pointer;font:inherit}
+nav button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+label.opt{font-size:12px;color:var(--mut);display:flex;gap:4px;align-items:center}
+main{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 52px)}
+aside{border-right:1px solid var(--line);padding:10px;overflow:auto;max-height:calc(100vh - 52px)}
+section.pane{padding:14px 18px;overflow:auto;max-height:calc(100vh - 52px)}
+@media(max-width:800px){main{grid-template-columns:1fr}aside{max-height:240px;border-right:0;border-bottom:1px solid var(--line)}section.pane{max-height:none}}
+input[type=search]{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);margin-bottom:8px;font:inherit}
+.item{padding:3px 8px;border-radius:5px;cursor:pointer;word-break:break-all;font-size:13px}
+.item:hover{background:var(--card)}.item.on{background:var(--acc);color:#fff}
+.grp{font-size:11px;color:var(--mut);margin:10px 0 3px;font-weight:600}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--ok)}.dot.DEAD,.dot.UNREACHABLE{background:var(--bad)}.dot.FRAMEWORK_ONLY{background:var(--fw)}
+h2{font-size:17px;margin:0 0 4px}h3{font-size:14px;margin:18px 0 6px}
+.muted{color:var(--mut);font-size:12px}
+.card{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:8px 10px;margin:4px 0}
+.node{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:4px 10px;background:var(--bg);font-weight:600;word-break:break-all}
+.node.screen{border-color:var(--acc);color:var(--acc)}.node.dead{border-color:var(--bad)}
+.arrow{margin:2px 0 2px 14px;padding:6px 10px;border-left:3px solid var(--line);font-size:13px}
+.badge{display:inline-block;font-size:11px;padding:0 6px;border-radius:9px;color:#fff;margin-right:6px;vertical-align:1px}
+.k-GUI{background:var(--gui)}.k-CALL{background:var(--call)}.k-LIFECYCLE{background:var(--life)}.k-SYSTEM{background:var(--sys)}.k-ASYNC{background:var(--async)}.k-INTENT{background:var(--async)}.k-RESULT{background:var(--async)}.k-FRAMEWORK{background:var(--fw)}.k-ENTERS{background:var(--mut)}.k-ENTRY{background:var(--life)}.k-REGISTER{background:var(--mut)}
+.gui{color:var(--gui)}.guard{color:var(--mut);font-style:italic}.warn{color:var(--sys)}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;font-size:13px}th{color:var(--mut);font-weight:600;font-size:12px}
+.chip{display:inline-block;border:1px solid var(--acc);color:var(--acc);border-radius:10px;padding:0 8px;margin:1px 3px 1px 0;cursor:pointer;font-size:12px}.chip:hover{background:var(--acc);color:#fff}
+details>summary{cursor:pointer;color:var(--mut);font-size:12px}
+svg{max-width:100%;height:auto;background:var(--bg)}svg text{fill:var(--fg);font-size:12px}
+.mapnode rect{fill:var(--card);stroke:var(--acc);stroke-width:1.5;rx:8}.mapnode.on rect{fill:var(--acc)}.mapnode.on text{fill:#fff}.mapnode{cursor:pointer}
+.medge{fill:none;stroke:var(--mut);stroke-width:1.2;opacity:.3}.medge.hl{stroke:var(--acc);stroke-width:2.4;opacity:1}.mapwrap{overflow:auto;border:1px solid var(--line);border-radius:8px}.mapwrap svg{max-width:none}
+.legend span{margin-right:10px;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Trigger graph</h1>
+  <nav><button id="t-map">Page map</button><button id="t-page">Page → next pages</button><button id="t-meth">Method → trigger path</button></nav>
+  <label class="opt"><input type="checkbox" id="setup"> Include "needs prior state" edges</label>
+  <label class="opt"><input type="checkbox" id="bg"> Show paused/exit pages on the map</label>
+  <span class="sub" id="stats"></span>
+</header>
+<main><aside id="side"></aside><section class="pane" id="pane"></section></main>
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+"use strict";
+const G = JSON.parse(document.getElementById('data').textContent);
+const BASE = n => n.split('@')[0];
+const isScreen = n => n.startsWith('S_');
+const out = {}, inn = {};
+G.edges.forEach(e => { (out[e.src] = out[e.src] || []).push(e); (inn[BASE(e.dst)] = inn[BASE(e.dst)] || []).push(e); });
+const isNoise = p => p === 'S_EXIT' || /_PAUSED$/.test(p);   // pseudo pages: paused/background and exit
+const firstPage = Object.keys(G.screens).map(BASE).find(p => p !== 'S_ENTRY' && !isNoise(p)) || 'S_ENTRY';
+const state = {tab: 'map', page: firstPage, meth: G.methods[0], setup: false, bg: false, q: ''};
+
+function el(tag, props, ...kids) {
+  const e = document.createElement(tag);
+  for (const k in (props || {})) {
+    if (k === 'class') e.className = props[k]; else if (k === 'text') e.textContent = props[k];
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2), props[k]); else e.setAttribute(k, props[k]);
+  }
+  kids.flat().forEach(c => { if (c != null) e.append(c.nodeType ? c : document.createTextNode(c)); });
+  return e;
+}
+const svgel = (tag, props, ...kids) => {
+  const e = document.createElementNS('http://www.w3.org/2000/svg', tag);
+  for (const k in (props || {})) { if (k.startsWith('on')) e.addEventListener(k.slice(2), props[k]); else e.setAttribute(k, props[k]); }
+  kids.flat().forEach(c => { if (c != null) e.append(c.nodeType ? c : document.createTextNode(c)); });
+  return e;
+};
+
+// ---------- graph search -------------------------------------------------------------------
+function bfs() {
+  const prev = {'S_ENTRY': null}, q = ['S_ENTRY'];
+  while (q.length) {
+    const n = q.shift();
+    for (const e of out[n] || []) {
+      if (e.kind === 'REGISTER' || e.src === e.dst || e.dst in prev) continue;
+      if (e.needs_state && !state.setup) continue;
+      prev[e.dst] = e; q.push(e.dst);
+    }
+  }
+  return prev;
+}
+function pathTo(n, prev) { const p = []; while (prev[n]) { p.push(prev[n]); n = prev[n].src; } return p.reverse(); }
+
+// next pages reached when edge `e` fires: follow calls/intents/lifecycle/async until a screen is entered
+function nextScreens(e) {
+  const found = new Set(), seen = new Set();
+  const walk = (n, depth) => {
+    if (isScreen(n)) { found.add(BASE(n)); return; }
+    if (seen.has(n) || depth > 14) return; seen.add(n);
+    for (const x of out[n] || []) {
+      if (x.kind === 'REGISTER' || x.kind === 'FRAMEWORK') continue;
+      if (x.needs_state && !state.setup) continue;
+      walk(x.dst, depth + 1);
+    }
+  };
+  walk(e.dst, 0);
+  return [...found];
+}
+function transitions(page) {            // all gestures/system events on any variant of `page`
+  const rows = [];
+  for (const s of Object.keys(G.screens).concat(Object.keys(out).filter(k => isScreen(k) && !(k in G.screens)))) {
+    if (BASE(s) !== page) continue;
+    for (const e of out[s] || []) {
+      if (e.kind === 'REGISTER' || e.kind === 'ENTERS' || e.kind === 'FRAMEWORK') continue;
+      if (e.needs_state && !state.setup) continue;
+      rows.push({e, variant: s, next: nextScreens(e)});
+    }
+  }
+  const seen = new Set(), res = [];
+  rows.forEach(r => { const k = r.variant + r.e.id; if (!seen.has(k)) { seen.add(k); res.push(r); } });
+  // a click on the action bar goes through onOptionsItemSelected, which then switches on the menu id: show one row per menu item
+  const expanded = [];
+  res.forEach(r => {
+    if (!/onOptionsItemSelected$/.test(BASE(r.e.dst))) { expanded.push(r); return; }
+    const subs = (out[r.e.dst] || []).filter(c => c.kind !== 'REGISTER' && !(c.needs_state && !state.setup));
+    if (!subs.length) { expanded.push(r); return; }
+    subs.forEach(c => {
+      const m = /(android\.R\.id\.home|action_\w+)/.exec(c.trigger); const id = m ? m[1] : c.dst;
+      const label = id === 'android.R.id.home' ? 'Up arrow (top-left)' : id.replace('action_', '').replace('_', ' ');
+      expanded.push({e: c, variant: r.variant, next: nextScreens(c), label: 'Menu item: ' + label, via: r.e});
+    });
+  });
+  return expanded;
+}
+
+// ---------- shared rendering -------------------------------------------------------------------
+const nodeBox = n => el('span', {class: 'node ' + (isScreen(n) ? 'screen' : (['DEAD', 'UNREACHABLE'].includes(G.verdict[BASE(n)]) ? 'dead' : '')), text: n});
+function edgeCard(e) {
+  const bits = [el('span', {class: 'badge k-' + e.kind, text: e.kind}), e.trigger];
+  const d = el('div', {class: 'arrow'}, el('div', {}, bits));
+  if (e.gui && e.gui.length) d.append(el('div', {class: 'gui', text: 'GUI: ' + e.gui.join(' ; ')}));
+  if (e.guard) d.append(el('div', {class: 'guard', text: 'Guard: ' + e.guard}));
+  if (e.needs_state) d.append(el('div', {class: 'warn', text: '⚠ Needs prior state: ' + e.needs_state}));
+  const det = [];
+  if (e.reads && e.reads.length) det.push('Reads: ' + e.reads.join(', '));
+  if (e.writes && e.writes.length) det.push('Writes: ' + e.writes.join(', '));
+  if (e.note) det.push('Note: ' + e.note);
+  if (det.length) d.append(el('details', {}, el('summary', {text: 'Channels / note'}), el('div', {class: 'muted', text: det.join(' | ')})));
+  return d;
+}
+const go = (tab, key) => { state.tab = tab; if (tab === 'page') state.page = key; if (tab === 'meth') state.meth = key; render(); };
+
+// ---------- tab: page map -------------------------------------------------------------------
+function renderMap(pane) {
+  const pages = [...new Set(Object.keys(G.screens).map(BASE))].filter(p => state.bg || !isNoise(p));
+  const adj = {}, label = {};
+  pages.forEach(p => adj[p] = {});
+  pages.forEach(p => transitions(p).forEach(r => r.next.forEach(n => {
+    if (n === p || !pages.includes(n)) return; (adj[p][n] = adj[p][n] || []).push((r.label || r.e.gui[0] || r.e.trigger).slice(0, 60));
+  })));
+  // layered by BFS depth from S_ENTRY
+  const depth = {'S_ENTRY': 0}, q = ['S_ENTRY'];
+  while (q.length) { const n = q.shift(); for (const m in adj[n] || {}) if (!(m in depth)) { depth[m] = depth[n] + 1; q.push(m); } }
+  const maxd = Math.max(...Object.values(depth));
+  pages.forEach(p => { if (!(p in depth)) depth[p] = maxd + 1; });
+  const cols = {}; pages.forEach(p => (cols[depth[p]] = cols[depth[p]] || []).push(p));
+  const W = 200, H = 62, X0 = 20, Y0 = 20, GX = 70, GY = 22, pos = {};
+  let maxrows = 0;
+  Object.keys(cols).forEach(c => { cols[c].forEach((p, i) => pos[p] = {x: X0 + c * (W + GX), y: Y0 + i * (H + GY)}); maxrows = Math.max(maxrows, cols[c].length); });
+  const width = X0 * 2 + (Object.keys(cols).length) * (W + GX), height = Y0 * 2 + maxrows * (H + GY);
+  const svg = svgel('svg', {viewBox: `0 0 ${width} ${height}`, width, height, style: 'max-width:none'});
+  svg.append(svgel('defs', {}, svgel('marker', {id: 'ah', viewBox: '0 0 8 8', refX: 7, refY: 4, markerWidth: 7, markerHeight: 7, orient: 'auto'}, svgel('path', {d: 'M0 0L8 4L0 8z', fill: 'currentColor', style: 'color:var(--mut)'}))));
+  const edgeEls = [];
+  pages.forEach(a => Object.keys(adj[a]).forEach(b => {
+    const A = pos[a], B = pos[b]; if (!A || !B) return;
+    const fwd = depth[b] > depth[a]; let d;
+    if (fwd) { const x1 = A.x + W, y1 = A.y + H / 2, x2 = B.x, y2 = B.y + H / 2; d = `M${x1} ${y1} C${x1 + 40} ${y1} ${x2 - 40} ${y2} ${x2} ${y2}`; }
+    else { const x1 = A.x + W / 2, y1 = A.y, x2 = B.x + W / 2, y2 = B.y; const up = Math.min(y1, y2) - 30 - 8 * Math.abs(depth[a] - depth[b]); d = `M${x1} ${y1} C${x1} ${up} ${x2} ${up} ${x2} ${y2}`; }
+    const p = svgel('path', {d, class: 'medge', 'marker-end': 'url(#ah)', 'data-a': a, 'data-b': b}, svgel('title', {}, `${a} → ${b}\n` + [...new Set(adj[a][b])].join('\n')));
+    edgeEls.push(p); svg.append(p);
+  }));
+  pages.forEach(p => {
+    const P = pos[p], g = svgel('g', {class: 'mapnode' + (p === state.page ? ' on' : ''), onclick: () => go('page', p)},
+      svgel('title', {}, G.screens[p] || p), svgel('rect', {x: P.x, y: P.y, width: W, height: H, rx: 8}),
+      svgel('text', {x: P.x + 10, y: P.y + 24, 'font-weight': 600}, p.replace('S_', '')),
+      svgel('text', {x: P.x + 10, y: P.y + 44}, (G.screens[p] || '').split(/[:：(（,]/)[0].slice(0, 20)));
+    g.addEventListener('mouseenter', () => edgeEls.forEach(e => e.classList.toggle('hl', e.dataset.a === p || e.dataset.b === p)));
+    g.addEventListener('mouseleave', () => edgeEls.forEach(e => e.classList.remove('hl')));
+    svg.append(g);
+  });
+  pane.append(el('h2', {text: 'Page map'}), el('div', {class: 'muted', text: 'Each box is a page or UI state. An arrow means: after some user gesture or system event (through its callback chain) the user lands on the next page. Hover a box to highlight its incoming and outgoing arrows, hover an arrow to see which gestures cause it, click a box to open its page view. Columns run left to right by number of steps from the start page; arrows pointing back arc above.'}), el('div', {class: 'mapwrap'}, svg));
+}
+
+// ---------- tab: page -> next pages -------------------------------------------------------------------
+function renderPage(pane) {
+  const p = state.page, rows = transitions(p);
+  pane.append(el('h2', {text: p}), el('div', {class: 'muted', text: G.screens[p] || ''}));
+  const incoming = [];
+  Object.keys(G.screens).map(BASE).filter((v, i, a) => a.indexOf(v) === i).forEach(q => transitions(q).forEach(r => { if (q !== p && r.next.includes(p)) incoming.push({from: q, r}); }));
+  pane.append(el('h3', {text: 'How to get here'}));
+  const inSet = {}; incoming.forEach(x => (inSet[x.from] = inSet[x.from] || []).push(x.r.label || x.r.e.gui[0] || x.r.e.trigger));
+  pane.append(el('div', {}, Object.keys(inSet).length ? Object.keys(inSet).map(f => el('span', {class: 'chip', title: [...new Set(inSet[f])].join('\n'), onclick: () => go('page', f), text: f})) : el('span', {class: 'muted', text: '(none, or only via "needs prior state" edges)'})));
+  pane.append(el('h3', {text: `What can happen on this page (${rows.length})`}));
+  const tbl = el('table', {}, el('tr', {}, el('th', {text: 'Gesture / event'}), el('th', {text: 'Callback method'}), el('th', {text: 'Then lands on'}), el('th', {text: 'Guard / details'})));
+  rows.forEach(r => {
+    const e = r.e, vtag = r.variant !== p && r.variant.includes('@') ? el('span', {class: 'muted', text: ' [' + r.variant.split('@')[1] + ']'}) : null;
+    tbl.append(el('tr', {},
+      el('td', {}, el('span', {class: 'badge k-' + (r.via ? 'GUI' : e.kind), text: r.via ? 'GUI' : e.kind}), (r.label || e.gui[0] || e.trigger), vtag, (!r.via && e.gui.length > 1) ? el('div', {class: 'muted', text: e.gui.slice(1).join(' ; ')}) : null, r.via ? el('div', {class: 'muted', text: 'via ' + r.via.dst}) : null),
+      el('td', {}, el('a', {href: '#', onclick: ev => { ev.preventDefault(); go('meth', BASE(e.dst)); }, text: e.dst})),
+      el('td', {}, r.next.length ? r.next.map(n => el('span', {class: 'chip', onclick: () => go('page', n), text: n})) : el('span', {class: 'muted', text: '(stays on this page / no page change)'})),
+      el('td', {}, el('div', {class: 'guard', text: e.guard || ''}), el('details', {}, el('summary', {text: 'Trigger details'}), el('div', {class: 'muted', text: e.trigger + (e.note ? ' | ' + e.note : '')})))));
+  });
+  pane.append(tbl);
+}
+
+// ---------- tab: method -> trigger path -------------------------------------------------------------------
+function renderMeth(pane) {
+  const m = state.meth, prev = bfs(), vs = Object.keys(prev).filter(n => BASE(n) === m);
+  const v = G.verdict[m];
+  const L = (G.labels || {})[m] || {}, kinds = a => (a || []).map(g => g.kinds.join('+')).join(', ') || 'none';
+  const why = L.unreachable ? L.unreachable.kind + ': ' + L.unreachable.text : ((G.dead || {})[m] || (G.framework_only || {})[m] || '');
+  pane.append(el('h2', {text: m}), el('div', {class: 'muted', text: 'Verdict: ' + v + (why ? ' — ' + why : '')}));
+  if (G.labels && v === 'REACHABLE') pane.append(el('div', {class: 'muted', text: 'ENV: ' + kinds(L.env) + ' | STATE: ' + kinds(L.state) + ' | edge classes on the best route: ' + ((L.route_edge_classes || []).join(', ') || 'none') + ' | explicit/standard-only route: ' + (L.explicit_standard_route ? 'yes' : 'no') + ' | confirmed by: ' + L.confirmed_by + (L.source_ref ? ' (' + L.source_ref + ')' : '') + ' | path: ' + L.path_status}));
+  if (!vs.length) {
+    const noway = v === 'DEAD' || v === 'FRAMEWORK_ONLY' || v === 'UNREACHABLE';
+    pane.append(el('div', {class: 'card warn', text: noway ? 'No incoming edges: see the verdict above (unreachable).' : (state.setup ? 'The graph has no path from the start page to this method.' : 'No path unless "needs prior state" edges are included; tick the box above and look again.')}));
+  }
+  // one candidate route per distinct incoming edge, shortest first
+  const cands = [];
+  (inn[m] || []).forEach(e => {
+    if (e.kind === 'REGISTER' || !(e.src in prev)) return;
+    if (e.needs_state && !state.setup) return;
+    cands.push(pathTo(e.src, prev).concat([e]));
+  });
+  cands.sort((a, b) => a.length - b.length);
+  const uniq = []; const seenSig = new Set();
+  cands.forEach(p => { const s = p[p.length - 1].id; if (!seenSig.has(s)) { seenSig.add(s); uniq.push(p); } });
+  if (uniq.length) {
+    pane.append(el('h3', {text: `Path from the start to here (shortest: ${uniq[0].length} steps; ${uniq.length} distinct entry edge${uniq.length === 1 ? '' : 's'}; the 3 shortest are shown)`}));
+    uniq.slice(0, 3).forEach((p, i) => {
+      const box = el('div', {class: 'card'}, el('div', {class: 'muted', text: 'Path ' + (i + 1) + ' · ' + p.length + ' steps'}));
+      box.append(nodeBox(p[0].src));
+      p.forEach(e => { box.append(edgeCard(e), nodeBox(e.dst)); });
+      pane.append(box);
+    });
+  }
+  const ins = (inn[m] || []);
+  pane.append(el('h3', {text: `All incoming edges (${ins.length}): every known way to trigger it`}));
+  ins.forEach(e => pane.append(el('div', {class: 'card'}, el('span', {class: 'node', text: e.src}), edgeCard(e))));
+  const outs = Object.keys(out).filter(k => BASE(k) === m).flatMap(k => out[k]).filter(e => e.kind !== 'REGISTER');
+  pane.append(el('h3', {text: `What this method triggers next (${outs.length})`}));
+  outs.forEach(e => pane.append(el('div', {class: 'card'}, edgeCard(e), nodeBox(e.dst))));
+}
+
+// ---------- sidebar & shell -------------------------------------------------------------------
+function renderSide(side) {
+  const search = el('input', {type: 'search', placeholder: state.tab === 'meth' ? 'Filter methods…' : 'Filter pages…', value: state.q});
+  search.addEventListener('input', () => { state.q = search.value; renderSideList(side, list); });
+  const list = el('div', {});
+  side.append(search, list); renderSideList(side, list);
+}
+function renderSideList(side, list) {
+  list.textContent = '';
+  const q = state.q.toLowerCase();
+  if (state.tab === 'meth') {
+    const byc = {};
+    G.methods.filter(m => m.toLowerCase().includes(q)).forEach(m => (byc[m.split('.')[0]] = byc[m.split('.')[0]] || []).push(m));
+    Object.keys(byc).forEach(c => {
+      list.append(el('div', {class: 'grp', text: c}));
+      byc[c].forEach(m => list.append(el('div', {class: 'item' + (m === state.meth ? ' on' : ''), onclick: () => go('meth', m)}, el('span', {class: 'dot ' + G.verdict[m]}), m.slice(c.length + 1))));
+    });
+  } else {
+    [...new Set(Object.keys(G.screens).map(BASE))].filter(p => p.toLowerCase().includes(q)).forEach(p =>
+      list.append(el('div', {class: 'item' + (p === state.page ? ' on' : ''), onclick: () => go('page', p), text: p})));
+  }
+}
+function render() {
+  if (G.title) { document.getElementById('title').textContent = G.title; document.title = G.title; }
+  document.getElementById('stats').textContent = `${G.methods.length} methods · ${Object.keys(G.screens).length} pages · ${G.edges.length} edges`;
+  ['map', 'page', 'meth'].forEach(t => document.getElementById('t-' + t).classList.toggle('on', state.tab === t));
+  const side = document.getElementById('side'), pane = document.getElementById('pane');
+  side.textContent = ''; pane.textContent = '';
+  if (state.tab !== 'map') renderSide(side); else side.append(el('div', {class: 'legend'}, el('div', {class: 'grp', text: 'Edge kinds'}),
+    ['GUI', 'CALL', 'LIFECYCLE', 'SYSTEM', 'ASYNC', 'INTENT', 'RESULT', 'FRAMEWORK', 'ENTERS', 'ENTRY'].map(k => el('div', {}, el('span', {class: 'badge k-' + k, text: k})))),
+    el('div', {class: 'grp', text: 'Method verdict'}), el('div', {}, el('span', {class: 'dot'}), 'Reachable'), G.schema === 2 ? el('div', {}, el('span', {class: 'dot UNREACHABLE'}), 'Unreachable') : [el('div', {}, el('span', {class: 'dot DEAD'}), 'Dead code'), el('div', {}, el('span', {class: 'dot FRAMEWORK_ONLY'}), 'Framework-only')]);
+  ({map: renderMap, page: renderPage, meth: renderMeth})[state.tab](pane);
+}
+document.getElementById('t-map').onclick = () => { state.tab = 'map'; render(); };
+document.getElementById('t-page').onclick = () => { state.tab = 'page'; state.q = ''; render(); };
+document.getElementById('t-meth').onclick = () => { state.tab = 'meth'; state.q = ''; render(); };
+document.getElementById('setup').onchange = ev => { state.setup = ev.target.checked; render(); };
+document.getElementById('bg').onchange = ev => { state.bg = ev.target.checked; render(); };
+render();
+</script>
+</body>
+</html>
